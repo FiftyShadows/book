@@ -1,0 +1,1 @@
+http://python.usyiyi.cn/translate/python_278/library/logging.html#logging.basicConfig
