@@ -8,6 +8,6 @@
   * [\(四\)字典](python-ji-chu-shi-yi/56db29-zi-dian.md)
 * [python 内置库](python-nei-zhi-ku.md)
   * [logging 库的使用](logging-ku-de-shi-yong.md)
-  * threading库的使用
+  * [threading库的使用](threadingku-de-shi-yong.md)
 * [进程与线程](jin-cheng-yu-xian-cheng.md)
 
