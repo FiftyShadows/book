@@ -5,3 +5,4 @@
 ####启动一个线程快于启动进程. 
 ####一个线程可以控制同一个进程里的其他线程,进程只能操作自身的子进程.
 ####关于线程,尤其是python的线程,一般都是threading库的使用,可以看我之前的文章:[threading库的使用](https://qq976739120.gitbooks.io/book/content/threadingku-de-shi-yong.html)
+####关于进程,尤其是python的进程,可以看我之前的文章
