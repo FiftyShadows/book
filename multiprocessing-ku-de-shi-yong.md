@@ -98,4 +98,79 @@ if __name__ == '__main__':
     print(q.get())    # prints "[42, None, 'hello']"
     p.join()
 # ---------------------------------------------------------------------
+# 进程间的另一种好用的通信方式Pipe
+# def f(conn):
+# 	conn.send('son to father message')
+# 	print(conn.recv())
+# 	conn.close()
+#
+# if __name__ == '__main__':
+# 	parent_coon,son_coon   = multiprocessing.Pipe()
+# 	p = multiprocessing.Process(target=f,args=(son_coon,))
+# 	p.start()
+# 	print(parent_coon.recv())#父进程收到消息
+# 	parent_coon.send('father to son message')#父进程发送消息
+# ---------------------------------------------------------------------
+# 进程间的数据互相修改
+# def f(d, l):
+#     d[1] = '1'
+#     d['2'] = 2
+#     d[0.25] = None
+#     l.append(os.getpid())
+#     print(l)
+#
+# if __name__ == '__main__':
+#     with multiprocessing.Manager() as manager:
+#         d = manager.dict() #生成一个字典,可以在多个进程间共享
+#
+#         l = manager.list(range(5))#生成一个字列表,可以在多个进程间共享
+#         p_list = []
+#         for i in range(10):
+#             p = multiprocessing.Process(target=f, args=(d, l))
+#             p.start()
+#             p_list.append(p)
+#
+#         for res in p_list:#等待结果
+#             res.join()
+#
+#         print(d)
+#         print(l)
+# ---------------------------------------------------------------------
+# 进程锁的使用
+# 这个锁挺无聊的,一般是为了防止打印打印在屏幕上出现问题,因为进程相互独立,但是打印的时候共享同一块屏幕
+# def f(l, i):
+#     l.acquire()
+#     try:
+#         print('hello world', i)
+#     finally:
+#         l.release()
+#
+# if __name__ == '__main__':
+#     lock = multiprocessing.Lock()
+#
+#     for num in range(100):
+#        multiprocessing.Process(target=f, args=(lock, num)).start()
+# ---------------------------------------------------------------------
+# 进程池的使用
+# apply        #同步执行,串行
+# apply_async  #异步执行,并行
+def foo(i):
+	time.sleep(2)
+	print('in progrress', os.getpid())
+	return i + 100
+
+
+def bar(arg):
+	print('-->exec done:', arg,os.getpid())
+
+if __name__ == '__main__':
+	print('主进程{}'.format(os.getpid()))
+	for i in range(10):
+		pool = multiprocessing.Pool(5)  # 允许进程池里放入5个进程
+		# pool.apply(func=foo,args=(i,))   #这里每隔两秒打印了一个,变成了串行
+		# pool.apply_async(func=foo,args=(i,))   #异步执行
+		pool.apply_async(func=foo, args=(i,), callback=bar)  #回调函数,执行完foo之后执行bar,这个很实用,比如处理完之后自动加一个日志
+	pool.close()
+	pool.join()
+
 ```
