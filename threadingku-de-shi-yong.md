@@ -131,7 +131,7 @@ print(num)
 
 # 互斥锁 同时只允许一个线程更改数据，而Semaphore是同时允许一定数量的线程更改数据 ，
 # 比如厕所有3个坑，那最多只允许3个人上厕所，后面的人只能等里面有人出来了才能再进去。
-# semaphore = threading.BoundedSemaphore(5)  # 最多允许5个线程同时运行
+semaphore = threading.BoundedSemaphore(5)  # 最多允许5个线程同时运行
 
 def run(n):
 	semaphore.acquire()
