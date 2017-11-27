@@ -1,6 +1,8 @@
 ####multiprocessing包是Python中的多进程管理包。它与 threading.Thread类似，可以利用multiprocessing.Process对象来创建一个进程。该进程可以允许放在Python程序内部编写的函数中。该Process对象与Thread对象的用法相同，拥有is_alive()、join([timeout])、run()、start()、terminate()等方法。属性有：authkey、daemon（要通过start()设置）、exitcode(进程在运行时为None、如果为–N，表示被信号N结束）、name、pid。此外multiprocessing包中也有Lock/Event/Semaphore/Condition类，用来同步进程，其用法也与threading包中的同名类一样。multiprocessing的很大一部份与threading使用同一套API，只不过换到了多进程的情境。
 ####这个模块表示像线程一样管理进程，这个是multiprocessing的核心，它与threading很相似，对多核CPU的利用率会比threading好的多。
 
+####注意进程池的回调函数的使用,回调函数是在主进程里的,不用再多开进程,能节省不小的开销.
+
 
 
 ####以下代码实例
@@ -169,7 +171,7 @@ if __name__ == '__main__':
 		pool = multiprocessing.Pool(5)  # 允许进程池里放入5个进程
 		# pool.apply(func=foo,args=(i,))   #这里每隔两秒打印了一个,变成了串行
 		# pool.apply_async(func=foo,args=(i,))   #异步执行
-		pool.apply_async(func=foo, args=(i,), callback=bar)  #回调函数,执行完foo之后执行bar,这个很实用,比如处理完之后自动加一个日志
+		pool.apply_async(func=foo, args=(i,), callback=bar)  #回调函数,执行完foo之后执行bar,这个很实用,比如处理完之后自动加一个日志,而且回调函数是在主进程里
 	pool.close()
 	pool.join()
 
