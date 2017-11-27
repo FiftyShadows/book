@@ -11,7 +11,7 @@
 #### 关于线程,尤其是python的线程,一般都是threading库的使用,可以看我之前的文章:[threading库的使用](https://www.gitbook.com/book/qq976739120/book/edit#/edit/master/threadingku-de-shi-yong.md?_k=r1op48)
 
 
-#### 关于进程,尤其是python的进程,可以看我之前的文章:[multiprocessing库的使用](https://qq976739120.gitbooks.io/book/content/multiprocessing-ku-de-shi-yong.html)
+#### 关于进程,windows下我不是很熟,但是linux下,每一个进程必然是其父进程启动的,如何使用多进程,可以看我之前的文章:[multiprocessing库的使用](https://qq976739120.gitbooks.io/book/content/multiprocessing-ku-de-shi-yong.html)
 
 
 ####再多说几句多线程的使用场景:实际上python的多线程实际上是假线程,本质上是上下文的切换,在不堵塞的情况下还不如并行,但是一旦有堵塞的话,多线程还是有优势的. 另外,你要记住,io操作是不占用cpu的(例如从硬盘读取数据的操作),计算(例如就算1+1)才占用cpu,所以,大量的计算也不如单线程的速度,所以,python的多线程不适合cpu密集操作的任务,适合io密集(例如socker server)的任务.
