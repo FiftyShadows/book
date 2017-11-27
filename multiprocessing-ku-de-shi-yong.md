@@ -69,4 +69,33 @@ if __name__ == '__main__':
 	# hello bob
 # ---------------------------------------------------------------------
 ```
-###进程之间是无法互相访问的,要访问必须通过中间人
+###进程之间是无法互相访问的,要访问必须通过中间人,这个中间人跟queue非常的像,只不过在 multiprocessing 库里引用,这里跟线程的queue结合看效果比较好,我也是试了好久才明白的
+```
+import multiprocessing
+import threading
+import queue
+
+#线程间通讯
+#
+# def f():
+# 	q.put(['shen', None,1995])
+#
+# if __name__ == '__main__':
+# 	q = queue.Queue()
+# 	p = threading.Thread(target=f)
+# 	p.start()
+# 	print(q.get())  # prints "[42, None, 'hello']"
+# 	p.join()
+# ---------------------------------------------------------------------
+#进程间通讯
+def f(q):#传入了q
+    q.put(['shen', None,1995])
+
+if __name__ == '__main__':
+    q = multiprocessing.Queue()#父进程的q
+    p = multiprocessing.Process(target=f, args=(q,))#又开了一个子进程,无法直接访问q,所以把q当参数传进去.
+    p.start()
+    print(q.get())    # prints "[42, None, 'hello']"
+    p.join()
+# ---------------------------------------------------------------------
+```
