@@ -1,3 +1,5 @@
+###不怕麻烦的直接看[文档](https://docs.python.org/2/library/os.html?highlight=os#module-os),[菜鸟教程](http://www.runoob.com/python/os-file-methods.html)的 也不错,我整理一下以下常用的
+
 ###os.getcwd() 获取当前工作目录，即当前python脚本工作的目录路径
 ###os.chdir("dirname")  改变当前脚本工作目录；相当于shell下cd
 ###os.curdir  返回当前目录: ('.')
@@ -27,4 +29,6 @@
 ###os.path.join(path1[, path2[, ...]])  将多个路径组合后返回，第一个绝对路径之前的参数将被忽略
 ###os.path.getatime(path)  返回path所指向的文件或者目录的最后存取时间
 ###os.path.getmtime(path)  返回path所指向的文件或者目录的最后修改时间
+###os.getppid(),获得父进程的id
+###os.getpid(),获得自己的进程的id
 
