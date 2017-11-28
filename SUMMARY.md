@@ -6,6 +6,7 @@
   * [\(二\)字符串](python-ji-chu-shi-yi/4e8c29-zi-fu-chuan.md)
   * [\(三\)列表](python-ji-chu-shi-yi/4e0929-lie-biao.md)
   * [\(四\)字典](python-ji-chu-shi-yi/56db29-zi-dian.md)
+  * [\(五\)装饰器](python-ji-chu-shi-yi/4e9429-zhuang-shi-qi.md)
 * [python 内置库](python-nei-zhi-ku.md)
   * [logging 库的使用](logging-ku-de-shi-yong.md)
   * [threading库的使用](threadingku-de-shi-yong.md)
