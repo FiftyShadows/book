@@ -31,4 +31,5 @@
 ###os.path.getmtime(path)  返回path所指向的文件或者目录的最后修改时间
 ###os.getppid(),获得父进程的id
 ###os.getpid(),获得自己的进程的id
+###os.getcwd() 获取当前工作目录，即当前python脚本工作的目录路径
 
