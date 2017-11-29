@@ -12,11 +12,13 @@ client.connect(('localhost',6969))
 
 
 client.send(b'hello worldD')    #注意这里是 bytes
+#cilent.send('传中文'.encode('utf-8)) #中文的方式
 data = client.recv(1024)
 client.close()
 print ('data:{}'.format(data))
+#print ('data:{}'.format(data.decode())) #打印中文
 ```
-#####再建立一个服务端的 python 文件
+#####再建立一个服务端的 python 文件,注意运行的时候先运行服务端,先监听端口
 ```
 import socket
 server = socket.socket()
