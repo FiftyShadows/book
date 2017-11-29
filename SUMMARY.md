@@ -16,9 +16,9 @@
 * [python好用的第三方库](pythonhao-yong-de-di-san-fang-ku.md)
   * [协程库 gevent](pythonhao-yong-de-di-san-fang-ku/xie-cheng-ku-gevent.md)
 * [进程与线程](jin-cheng-yu-xian-cheng.md)
-* [什么是生产者消费者队列](shi-yao-shi-sheng-chan-zhe-xiao-fei-zhe-dui-lie.md)
 * [协程](xie-cheng.md)
+* [socket通信](sockettong-xin.md)
+* [什么是生产者消费者队列](shi-yao-shi-sheng-chan-zhe-xiao-fei-zhe-dui-lie.md)
 * [堡垒机](bao-lei-ji.md)
-* [flask 学习记录](flask-xue-xi-ji-lu.md)
 * [socket通信](sockettong-xin.md)
 
