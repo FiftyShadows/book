@@ -5,7 +5,23 @@
 ####建立一个socket必须至少有2端， 一个服务端，一个客户端， 服务端被动等待并接收请求，客户端主动发起请求， 连接建立之后，双方可以互发数据。
 ####首先建立一个客户端的 py 文件
 ```
+import socket
 
+client = socket.socket()  #声明 socket 类型,生成 socket 连接对象
+client.connect(('localhost',6969))
+
+while True:
+    msg = input('>>:').strip()
+    if len(msg)==0:
+        print('不要输入空')
+        continue
+
+    # client.send(b'hello worldD')  # 注意这里是 bytes
+    client.send(msg.encode('utf-8')) #中文
+    data = client.recv(1024)  #收到的大小,1024字节
+    print('data:{}'.format(data))
+
+client.close()
 ```
 #####再建立一个服务端的 python 文件,注意运行的时候先运行服务端,先监听端口
 ```
@@ -20,7 +36,7 @@ while True:  #客户端断开后服务器能保证不断
     print(conn,addr)
     print('开始监听了--------------')
 
-    while True:
+    while True: #可以一直监听
         data = conn.recv(1024)
         if not data:
             print('client is lost...')
