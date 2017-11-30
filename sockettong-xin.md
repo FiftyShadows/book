@@ -45,3 +45,73 @@ while True:  #客户端断开后服务器能保证不断
         conn.send(data.upper())
 server.close()
 ```
+####因为socket每次接收和发送都有最大数据量限制的，毕竟网络带宽也是有限的呀，不能一次发太多，发送的数据最大量的限制 就是缓冲区能缓存的数据的最大量，这个缓冲区的最大值在不同的系统上是不一样的，官方建议不超过8k(最好是1024整数倍),那么客户端如何完整接收一个大文件呢,服务端代码
+```
+import socket
+import os,subprocess
+
+
+server = socket.socket() #获得socket实例
+server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+
+server.bind(("localhost",9999)) #绑定ip port
+server.listen()  #开始监听
+
+while True: #第一层loop
+    print("等待客户端的连接...")
+    conn,addr = server.accept() #接受并建立与客户端的连接,程序在此处开始阻塞,只到有客户端连接进来...
+    print("新连接:",addr )
+    while True:
+
+        data = conn.recv(1024)
+        if not data:
+            print("客户端断开了...")
+            break #这里断开就会再次回到第一次外层的loop
+        print("收到命令:",data)
+        #res = os.popen(data.decode()).read() #py3 里socket发送的只有bytes,os.popen又只能接受str,所以要decode一下
+        res = subprocess.Popen(data,shell=True,stdout=subprocess.PIPE).stdout.read() #跟上面那条命令的效果是一样的
+        if len(res) == 0:
+            res = "cmd exec success,has not output!".encode("utf-8")
+        conn.send(str(len(res)).encode("utf-8")) #发送数据之前,先告诉客户端要发多少数据给它
+        print("等待客户ack应答...")
+        client_final_ack = conn.recv(1024) #等待客户端响应
+        print("客户应答:",client_final_ack.decode())
+        print(type(res))
+        conn.sendall(res) #发送端也有最大数据量限制,所以这里用sendall,相当于重复循环调用conn.send,直至数据发送完毕
+
+server.close()
+```
+####客户端代码
+```
+import socket
+import sys
+
+client = socket.socket()
+
+client.connect(("localhost",9999))
+
+while True:
+    msg = input(">>:").strip()
+    if len(msg) == 0:continue
+    client.send( msg.encode("utf-8") )
+
+    res_return_size  = client.recv(1024) #接收这条命令执行结果的大小
+    print("getting cmd result , ", res_return_size)
+    total_rece_size = int(res_return_size)
+    print("total size:",res_return_size)
+    client.send("准备好接收了,发吧loser".encode("utf-8"))
+    received_size = 0 #已接收到的数据
+    cmd_res = b''
+    f = open("test_copy.html","wb")#把接收到的结果存下来,一会看看收到的数据 对不对
+    while received_size != total_rece_size: #代表还没收完
+        data = client.recv(1024)
+        received_size += len(data) #为什么不是直接1024,还判断len干嘛,注意,实际收到的data有可能比1024少
+        cmd_res += data
+    else:
+        print("数据收完了",received_size)
+        #print(cmd_res.decode())
+        f.write(cmd_res) #把接收到的结果存下来,一会看看收到的数据 对不对
+    #print(data.decode()) #命令执行结果
+
+client.close()
+```
