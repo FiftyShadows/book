@@ -115,3 +115,56 @@ while True:
 
 client.close()
 ```
+###基础铺垫结束,开始SocketServer部分(就是socket的封装)
+####服务端
+```
+import socketserver
+class MyTCPHandler(socketserver.BaseRequestHandler):
+    """
+    The request handler class for our server.
+    It is instantiated once per connection to the server, and must
+    override the handle() method to implement communication to the
+    client.
+    """
+    def handle(self): #一定要重写这个方法,跟客户端所有的交互都在这里执行
+        # self.request is the TCP socket connected to the client
+        try:
+            data = self.request.recv(1024).strip()
+            print("{} wrote:".format(self.client_address[0]))#打印客户端ip地址
+
+            self.request.sendall(b'a')
+            print(data.upper())
+            # just send back the same data, but upper-cased
+
+        except ConnectionResetError as e:
+            print('err-{}'.format(e))
+
+if __name__ == "__main__":
+    HOST, PORT = "localhost", 9999
+    # Create the server, binding to localhost on port 9999
+    server = socketserver.TCPServer((HOST, PORT), MyTCPHandler)
+    # Activate the server; this will keep running until you
+    # interrupt the program with Ctrl-C
+    server.serve_forever()#处理多个请求,永远执行
+```
+####客户端
+````
+import socket
+
+client = socket.socket()  #声明 socket 类型,生成 socket 连接对象
+client.connect(('localhost',9999))
+
+while True:
+    msg = input('>>:').strip()
+    if len(msg)==0:
+        print('不要输入空')
+        continue
+    client.send(msg.encode('utf-8')) #中文
+    print(1)
+    data = client.recv(1024)  #收到的大小,1024字节
+    print(2)
+    print('data:{}'.format(data))
+
+client.close()
+```
+ 
