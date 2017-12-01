@@ -146,6 +146,7 @@ if __name__ == "__main__":
 
     # Create the server, binding to localhost on port 9999
     server = socketserver.TCPServer((HOST, PORT), MyTCPHandler)
+        server = socketserver.ForkingTCPServer((HOST, PORT), MyTCPHandler)#多进程连接
     # servefr = socketserver.ThreadingTCPServer((HOST, PORT), MyTCPHandler)#多线程连接
     # Activate the server; this will keep running until you
     # interrupt the program with Ctrl-C
