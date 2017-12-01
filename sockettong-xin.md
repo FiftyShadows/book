@@ -116,7 +116,7 @@ while True:
 client.close()
 ```
 ###讲解 SocketServer 讲解,其实也就是 Socket 的封装
-服务端代码
+####服务端代码
 ```
 import socketserver
 
@@ -132,14 +132,18 @@ class MyTCPHandler(socketserver.BaseRequestHandler):
     """
 
 
-    def handle(self):
+     def handle(self):
         while True:
             # self.request is the TCP socket connected to the client
-            data = self.request.recv(1024).strip()
-            print("{} wrote:".format(self.client_address[0]))
-            print(data)
-            # just send back the same data, but upper-cased
-            self.request.sendall(data.upper())
+            try:
+                data = self.request.recv(1024).strip()
+                print("{} wrote:".format(self.client_address[0]))
+                print(data)
+                # just send back the same data, but upper-cased
+                self.request.sendall(data.upper())
+            except ConnectionResetError as e:
+                print('{}'.format(e))
+ 
 
 if __name__ == "__main__":
     HOST, PORT = "localhost", 9999
