@@ -16,10 +16,12 @@
 * [python好用的第三方库](pythonhao-yong-de-di-san-fang-ku.md)
   * [协程库 gevent](pythonhao-yong-de-di-san-fang-ku/xie-cheng-ku-gevent.md)
   * [必备 Anaconda](pythonhao-yong-de-di-san-fang-ku/bi-bei-anaconda.md)
+  * [orm 库 sqlalchemy](pythonhao-yong-de-di-san-fang-ku/orm-ku-sqlalchemy.md)
 * [进程与线程](jin-cheng-yu-xian-cheng.md)
 * [协程](xie-cheng.md)
 * [socket通信](sockettong-xin.md)
 * [什么是生产者消费者队列](shi-yao-shi-sheng-chan-zhe-xiao-fei-zhe-dui-lie.md)
 * [堡垒机](bao-lei-ji.md)
 * [shell 命令常用总结](shell-ming-ling-chang-yong-zong-jie.md)
+* [ORM 模型介绍](orm-mo-xing-jie-shao.md)
 
