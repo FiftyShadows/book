@@ -64,7 +64,7 @@ def handle_request(conn):
 if __name__ == '__main__':
     server(8001)
 ```
-####客户端
+####客户端,同时并发100个连接
 ```
 import socket
 import threading
