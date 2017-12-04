@@ -23,5 +23,5 @@
 * [什么是生产者消费者队列](shi-yao-shi-sheng-chan-zhe-xiao-fei-zhe-dui-lie.md)
 * [堡垒机](bao-lei-ji.md)
 * [shell 命令常用总结](shell-ming-ling-chang-yong-zong-jie.md)
-* [ORM 模型介绍](orm-mo-xing-jie-shao.md)
+* [数据库操作集合](shu-ju-ku-cao-zuo-ji-he.md)
 

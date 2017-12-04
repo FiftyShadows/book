@@ -35,7 +35,7 @@ import gevent
 
 from gevent import socket, monkey
 
-monkey.patch_all()#碰到可能 io 阻塞的记得加这句
+monkey.patch_all()#碰到可能 io 阻塞的记得加这句,俗称的猴子补丁
 
 def server(port):
     s = socket.socket()

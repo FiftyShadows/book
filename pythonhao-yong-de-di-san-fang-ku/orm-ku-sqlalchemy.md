@@ -1,0 +1,1 @@
+####因为我用的是 python3,所以使用 pymysql, 而不是 mysqldb, 用2的同学自行修改.
