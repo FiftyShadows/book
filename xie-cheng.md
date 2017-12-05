@@ -57,3 +57,19 @@ if __name__ == '__main__':
     p = producer()
 ```
 ###接下里直接讲一个第三方库的使用:协程库 gevent
+<!-- ignore:advanced-emoji:start -->
+:white_check_mark:
+<!-- ignore:advanced-emoji:end -->
+This is a text
+
+<!-- ignore:advanced-emoji:start -->
+'''
+Check the Code
+Code ... :white_check_mark:
+'''
+<!-- ignore:advanced-emoji:end -->
+
+foo
+> **[info] For info**
+>
+> Use this for infomation messages.
