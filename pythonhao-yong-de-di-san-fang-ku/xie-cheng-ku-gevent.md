@@ -1,5 +1,5 @@
 废话不多,上代码
-```
+```python
 import gevent
 
 def func1():
@@ -27,7 +27,7 @@ gevent.joinall([
 ```
 ####再来一个单线程下并发100个 socket 通信的例子,需要结合我的 socket 通信文章一起阅读.
 #####服务端代码
-```
+```python
 import sys
 import socket
 import time
