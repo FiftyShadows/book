@@ -65,7 +65,7 @@ if __name__ == '__main__':
     server(8001)
 ```
 ####客户端,同时并发100个连接
-```
+```python
 import socket
 import threading
 
