@@ -29,4 +29,5 @@
   * [go基本语法](goji-ben-yu-fa.md)
   * [go基本函数](goji-ben-han-shu.md)
   * [指针的理解](zhi-zhen-de-li-jie.md)
+  * [struct](struct.md)
 
