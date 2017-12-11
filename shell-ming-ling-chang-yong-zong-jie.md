@@ -42,6 +42,8 @@ ls -la | grep a.txt ：搜索a.txt文件
 ####10.find命令：查找文件和目录
 find命令：查找文件和目录
 
+##### $ ps aux | grep python
+查到python 的进程
 
 
 

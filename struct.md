@@ -53,6 +53,8 @@ package main
 
 import "fmt"
 
+type Skills []string
+
 type Human struct {
 	name string
 	age int
@@ -60,13 +62,17 @@ type Human struct {
 type Student struct{
 	Human
 	weight int
-	age int
+	age int  //碰到同样的字段名怎么办呢
+	skills Skills //自定义的切片类型
 }
 
 func main() {
-	shen := Student{Human{"jiacheng",22},65,23}
+	shen := Student{Human{"jiacheng",22},65,23,[]string{"play games"}}
 	fmt.Println(shen.Human.age,shen.age)
+	//调用方式
 	// 22   23
+	fmt.Println(shen.skills)
+	//[play games]
 }
 
 ```
