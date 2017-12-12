@@ -31,4 +31,7 @@
   * [go基本函数](goji-ben-han-shu.md)
   * [指针的理解](zhi-zhen-de-li-jie.md)
   * [struct](struct.md)
+* [常用的算法](chang-yong-de-suan-fa.md)
+  * [动态规划](chang-yong-de-suan-fa/dong-tai-gui-hua.md)
+* go web入门
 
