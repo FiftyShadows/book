@@ -55,10 +55,11 @@ func main() {
 
 <br>
 
-####go里的map跟python的字典还是挺像的
+####go里的map跟python的字典还是挺像 的
 ```go
-
+//var m = make(map[int]string)  map也推荐用make的方式创建
 rating := map[string]float32{"C":5, "Go":4.5, "Python":4.5, "C++":2 }
 // map有两个返回值，第二个返回值，如果不存在key，那么ok为false，如果存在ok为true
 csharpRating, ok := rating["C#"]
-```
+delete(rating,"go")//删除一个键值对
+``` 

@@ -47,6 +47,48 @@ func main() {
 }
 ```
 <br>
+#####初始化技巧
+```go
+type person struct {
+	name string
+	age int
+}
+
+
+func main() {
+
+	bob := person{age:25, name:"Bob"}
+	fmt.Println(bob) //25
+	A(bob)  //16
+	fmt.Println(bob) // 25
+	//可以看到bob的age并没有真正改变
+}
+
+func A(per person){
+	per.age = 16
+	fmt.Println(per)
+}
+//----------------------------------------------------------------
+//初始化的时候取出地址	
+func main() {
+
+	bob := &person{age:25, name:"Bob"}
+	fmt.Println(bob) //25
+	A(bob)  //16
+	fmt.Println(bob) // 25
+}
+
+func A(per *person){
+	per.age = 16
+	fmt.Println(per)
+}
+//&{Bob 25}
+//&{Bob 16}
+//&{Bob 16}
+
+```
+<br>
+ 
 #####匿名字段,跟继承蛮像的
 ```go
 package main

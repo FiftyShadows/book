@@ -1,3 +1,4 @@
+###go的函数不支持嵌套 ,重载,默认参数
 ####goto 函数
 ```go
 package main
@@ -73,5 +74,39 @@ func main(){
 	fmt.Println("Odd elements of slice are: ", odd)
 	even := filter(slice, isEven)  // 函数当做值来传递了
 	fmt.Println("Even elements of slice are: ", even)
+}
+```
+<br>
+####go的defer函数,后定义的先调用,可以再return之后改变结果,如下 可以看到,结果是acb
+```go
+fmt.Println("a")
+defer fmt.Println("b")
+defer fmt.Println("c")
+//a
+//c
+//b
+```
+<br>
+
+####go的匿名函数
+```go
+a := func(c int)  {
+	fmt.Println(c)
+}
+a(6)
+```
+<br>
+####go的闭包函数
+```go
+func main() {
+	f := closure(10)
+	fmt.Println(f(1)) //11
+	fmt.Println(f(2)) //12
+}
+
+func closure(x int) func(int) int {
+	return func(y int) int {
+		return x + y
+	}
 }
 ```
