@@ -19,6 +19,7 @@ func main() {
 }
 ```
 <br>
+
 ####跟 python 不一样,多条件选择多了个switch, 跟 js 的用法一样`fallthrough`可以强制执行 case 后面的代码
 ```go
 i := 10

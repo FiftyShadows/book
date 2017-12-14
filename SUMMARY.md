@@ -33,6 +33,7 @@
   * [struct](struct.md)
   * [数组和切片](shu-zu-he-qie-pian.md)
   * [interface](interface.md)
+  * [go 并发](go-bing-fa.md)
 * [常用的算法](chang-yong-de-suan-fa.md)
   * [动态规划](chang-yong-de-suan-fa/dong-tai-gui-hua.md)
 * [go web入门](go-webru-men.md)
