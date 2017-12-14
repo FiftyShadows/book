@@ -73,9 +73,9 @@ func A(per person){
 func main() {
 
 	bob := &person{age:25, name:"Bob"}
-	fmt.Println(bob) //25
-	A(bob)  //16
-	fmt.Println(bob) // 25
+	fmt.Println(bob) 
+	A(bob)  
+	fmt.Println(bob) 
 }
 
 func A(per *person){
@@ -117,4 +117,86 @@ func main() {
 	//[play games]
 }
 
+```
+<br>
+####method  类似python 的类方法,这样理解就很容易了
+```go
+type Rectangle struct {
+	width, height float64
+} //一个类
+
+func (r Rectangle) area() float64 {
+	return r.width * r.height
+}  //类方法
+
+func main() {
+	a :=Rectangle{12,2} //实例化一个类
+
+	fmt.Println("Area of r1 is: ", a.area())//调用类方法
+}
+```
+<br>
+####再看下用方法怎么改变属性
+```go
+//可以看到,需要带上指针才能改变值
+type Rectangle struct {
+	width, height int
+}
+
+
+func (r Rectangle) no_pointer() {
+	r.width = 10
+}
+
+func (r *Rectangle) pointer() {
+	r.width = 5
+}
+
+func main() {
+	a :=Rectangle{12,2}
+	a.no_pointer()
+	fmt.Println("no_pointer", a)
+	a.pointer()
+	fmt.Println("poionter", a)
+	//no_pointer {12 2}
+	//poionter {5 2}
+}
+```
+<br>
+####再来看下怎么继承后的重写
+```go
+type Human struct {
+	name string
+	age int
+	phone string
+}
+
+type Student struct {
+	Human //匿名字段
+	school string
+}
+
+type Employee struct {
+	Human //匿名字段
+	company string
+}
+
+//Human定义method
+func (h *Human) SayHi() {
+	fmt.Printf("Hi, I am %s you can call me on %s\n", h.name, h.phone)
+}
+
+//Employee的method重写Human的method
+func (e *Employee) SayHi() {
+	fmt.Printf("Hi, I am %s, I work at %s. Call me on %s\n", e.name,
+		e.company, e.phone) //Yes you can split into 2 lines here.
+}
+
+func main() {
+	mark := Student{Human{"Mark", 25, "222-222-YYYY"}, "MIT"}
+	sam := Employee{Human{"Sam", 45, "111-888-XXXX"}, "Golang Inc"}
+
+	mark.SayHi()
+	sam.SayHi()
+}
 ```
