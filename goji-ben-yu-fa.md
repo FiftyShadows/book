@@ -63,3 +63,17 @@ rating := map[string]float32{"C":5, "Go":4.5, "Python":4.5, "C++":2 }
 csharpRating, ok := rating["C#"]
 delete(rating,"go")//删除一个键值对
 ``` 
+<br>
+在函数间传递 map
+```go
+func main() {
+    dict := map[string]int{"王五": 60, "张三": 43}
+    modify(dict)
+    fmt.Println(dict["张三"])
+}
+
+func modify(dict map[string]int) {
+    dict["张三"] = 10
+}
+```
+#####上面这个例子输出的结果是10,也就是说已经被函数给修改了，可以证明传递的并不是一个Map的副本。这个特性和切片是类似的，这样就会更高，因为复制整个Map的代价太大了。
