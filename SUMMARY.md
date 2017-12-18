@@ -38,4 +38,7 @@
   * [动态规划](chang-yong-de-suan-fa/dong-tai-gui-hua.md)
 * [go web入门](go-webru-men.md)
 * [mongodb](mongodb.md)
+* [Django REST framework 笔记](django-rest-framework-bi-ji.md)
+  * [基础使用](ji-chu-shi-yong.md)
+  * [项目文件](xiang-mu-wen-jian.md)
 
