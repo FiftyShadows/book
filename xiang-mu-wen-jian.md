@@ -1,4 +1,4 @@
-####models,serializers和 views 我会从简单到难讲,不在这里写了
+####models文件serializers和 views 我会从简单到难讲,不在这里写了
 ```python
 class User(models.Model):
 	account = models.CharField(max_length=15, verbose_name='账号', unique=True)
