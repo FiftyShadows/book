@@ -42,7 +42,5 @@
   * [基础使用](ji-chu-shi-yong.md)
   * [项目文件](xiang-mu-wen-jian.md)
   * [搭配 django\_filter](da-pei-django-filter.md)
-* 《流畅的 python》 记录
-* 《cook book》记录
 * [redis 操作](redis-cao-zuo.md)
 
