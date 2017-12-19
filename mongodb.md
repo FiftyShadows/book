@@ -1,5 +1,6 @@
 ####可能很多理解上的错误,尽量只贴代码,用的是pymongo
-#####一张表类似excel的一个sheet
+#####一个库类似一个 excel 文件,一张表类似excel的一个sheet
+**命令行下如下操作**
 **show dbs  查看所有的数据库
 use XXX 使用哪个库
 show collections 看这个库下的表

@@ -44,4 +44,5 @@
   * [搭配 django\_filter](da-pei-django-filter.md)
 * 《流畅的 python》 记录
 * 《cook book》记录
+* [redis 操作](redis-cao-zuo.md)
 
