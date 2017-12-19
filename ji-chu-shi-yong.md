@@ -1,4 +1,16 @@
 先安装,不多讲了:http://www.django-rest-framework.org/#installation
+```python
+GenericViewSet(viewse)--drf
+    GenricAPIView--drf
+        APIView--drf
+            View -- django
+mixin
+    CreateMOdeMixin
+    ListModelMixin
+    UpdateModelMixin
+    RetrieveModelMixin
+    DestoryMOdelMixin
+```
 <br>
 实现如下效果
 ![](/assets/WX20171218-160815@2x.png)
