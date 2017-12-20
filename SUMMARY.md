@@ -27,10 +27,12 @@
   * [go 并发](go-bing-fa.md)
 * [常用的算法](chang-yong-de-suan-fa.md)
   * [动态规划](chang-yong-de-suan-fa/dong-tai-gui-hua.md)
+  * [快速排序](chang-yong-de-suan-fa/kuai-su-pai-xu.md)
 * [Django REST framework 笔记](django-rest-framework-bi-ji.md)
   * [基础使用](ji-chu-shi-yong.md)
   * [项目文件](xiang-mu-wen-jian.md)
   * [搭配 django\_filter](da-pei-django-filter.md)
+  * [多级分类的一次尝试](duo-ji-fen-lei-de-yi-ci-chang-shi.md)
 * [进程与线程](jin-cheng-yu-xian-cheng.md)
 * [协程](xie-cheng.md)
 * [socket通信](sockettong-xin.md)
@@ -44,4 +46,5 @@
 * [mongodb](mongodb.md)
 * [redis 操作](redis-cao-zuo.md)
 * [celery 操作](celery-cao-zuo.md)
+* [二叉树初略理解](er-cha-shu-chu-lve-li-jie.md)
 
