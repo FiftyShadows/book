@@ -1,0 +1,1 @@
+如果是 django 里的 celery 操作的话,直接看:http://yshblog.com/blog/163
