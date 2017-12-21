@@ -33,6 +33,7 @@
   * [项目文件](xiang-mu-wen-jian.md)
   * [搭配 django\_filter](da-pei-django-filter.md)
   * [多级分类的一次尝试](duo-ji-fen-lei-de-yi-ci-chang-shi.md)
+  * [DRF-JWT](drf-jwt.md)
 * [进程与线程](jin-cheng-yu-xian-cheng.md)
 * [协程](xie-cheng.md)
 * [socket通信](sockettong-xin.md)
@@ -47,4 +48,5 @@
 * [redis 操作](redis-cao-zuo.md)
 * [celery 操作](celery-cao-zuo.md)
 * [二叉树初略理解](er-cha-shu-chu-lve-li-jie.md)
+* [JWT 认证](jwt-ren-zheng.md)
 
