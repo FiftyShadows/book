@@ -30,6 +30,7 @@
   * [动态规划](chang-yong-de-suan-fa/dong-tai-gui-hua.md)
   * [快速排序](chang-yong-de-suan-fa/kuai-su-pai-xu.md)
   * [链表结构](chang-yong-de-suan-fa/lian-biao-jie-gou.md)
+  * [二分查找](chang-yong-de-suan-fa/er-fen-cha-zhao.md)
 * [Django REST framework 笔记](django-rest-framework-bi-ji.md)
   * [基础使用](ji-chu-shi-yong.md)
   * [项目文件](xiang-mu-wen-jian.md)
