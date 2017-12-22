@@ -49,4 +49,6 @@
 * [celery 操作](celery-cao-zuo.md)
 * [二叉树初略理解](er-cha-shu-chu-lve-li-jie.md)
 * [JWT 认证](jwt-ren-zheng.md)
+* [cookie 于 session](cookie-yu-session.md)
+* [解决跨域的一些实践](jie-jue-kua-yu-de-yi-xie-shi-jian.md)
 
