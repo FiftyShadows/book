@@ -1,3 +1,4 @@
+```python
 def binary_search(list,item):
     low = 0
     high = len(list)-1
@@ -13,3 +14,4 @@ def binary_search(list,item):
     return None
 mylist = [1,3,5,7,9]
 print binary_search(mylist,3)
+```
