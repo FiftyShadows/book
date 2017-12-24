@@ -33,16 +33,12 @@ def lookup(root):
 
 **深度遍历**
 ```python
-def deep(root):
-    if not root:
-        return
-    print root.data
-    deep(root.left)
-    deep(root.right)
+def depth(tree):
+    if tree==None:
+        return 0
+    left,right=depth(tree.left),depth(tree.right)
+    return max(left,right)+1
 
-if __name__ == '__main__':
-    lookup(tree)
-    deep(tree)
 ```
 
 ** 前中后序遍历**
