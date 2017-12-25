@@ -4,7 +4,7 @@
 
 ####建立一个socket必须至少有2端， 一个服务端，一个客户端， 服务端被动等待并接收请求，客户端主动发起请求， 连接建立之后，双方可以互发数据。
 ####首先建立一个客户端的 py 文件
-```
+```python
 import socket
 
 client = socket.socket()  #声明 socket 类型,生成 socket 连接对象

@@ -8,6 +8,7 @@
   * [\(三\)列表](python-ji-chu-shi-yi/4e0929-lie-biao.md)
   * [\(四\)字典](python-ji-chu-shi-yi/56db29-zi-dian.md)
   * [\(五\)装饰器](python-ji-chu-shi-yi/4e9429-zhuang-shi-qi.md)
+  * [\(六\)列表生成式、生成器、迭代器和内置函数](python-ji-chu-shi-yi/516d29-lie-biao-sheng-cheng-shi-3001-sheng-cheng-qi-3001-die-dai-qi-he-nei-zhi-han-shu.md)
 * [python 内置库](python-nei-zhi-ku.md)
   * [logging 库的使用](logging-ku-de-shi-yong.md)
   * [threading库的使用](threadingku-de-shi-yong.md)
