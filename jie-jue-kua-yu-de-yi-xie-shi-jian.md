@@ -78,7 +78,7 @@ localMethod({"result":"data from remote!"});
 
 而script元素是可以通过document.createElement('script')动态创建的，也就具备了随时可以引入一个外部script，这样就达到了跨域访问的目的，但是JSONP只支持GET请求，其他的方式不支持
 **3. WebSocket**
-WebSocket是一种通信协议，不实行同源政策，详情见参考资料4。
+WebSocket是一种通信协议，不实行同源政策，
 上面的几种方法，可以说是奇技淫巧，绕过了浏览器的限制。随着前端框架的兴起，以及前后端分离架构的流行，上面的技巧已经比较陈旧了。
 
 
