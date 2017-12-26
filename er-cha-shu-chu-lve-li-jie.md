@@ -18,6 +18,7 @@ class Node(object):
 
 tree = Node(1, Node(3, Node(7, Node(0)), Node(6)), Node(2, Node(5), Node(4)))
 ```
+![](/assets/WX20171226-140635@2x.png)
 **层次遍历**
 ```python
 def lookup(root):
