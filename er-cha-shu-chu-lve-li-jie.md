@@ -103,7 +103,7 @@ def isSameTree(p, q):
 **前序中序求后序**
 http://blog.csdn.net/hinyunsin/article/details/6315502
 ```python
-ef rebuild(pre, center):
+def rebuild(pre, center):
     if not pre:
         return
     cur = Node(pre[0])
