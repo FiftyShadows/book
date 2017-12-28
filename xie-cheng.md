@@ -56,20 +56,5 @@ if __name__ == '__main__':
     con2 = consumer("c2")
     p = producer()
 ```
-###接下里直接讲一个第三方库的使用:协程库 gevent
-<!-- ignore:advanced-emoji:start -->
-:white_check_mark:
-<!-- ignore:advanced-emoji:end -->
-This is a text
+###直接看我的文章:协程库 gevent
 
-<!-- ignore:advanced-emoji:start -->
-'''
-Check the Code
-Code ... :white_check_mark:
-'''
-<!-- ignore:advanced-emoji:end -->
-
-foo
-> **[info] For info**
->
-> Use this for infomation messages.
