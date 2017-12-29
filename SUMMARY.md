@@ -56,4 +56,5 @@
 * [cookie 于 session](cookie-yu-session.md)
 * [解决跨域的一些实践](jie-jue-kua-yu-de-yi-xie-shi-jian.md)
 * [redis rabbitMQ Memcache  Memcache](redis-rabbitmq-memcache-memcache.md)
+* [pycharm 的一些操作使用](pycharm-de-yi-xie-cao-zuo-shi-yong.md)
 
