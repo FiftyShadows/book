@@ -42,7 +42,6 @@
 * [协程](xie-cheng.md)
 * [socket通信](sockettong-xin.md)
 * [什么是生产者消费者队列](shi-yao-shi-sheng-chan-zhe-xiao-fei-zhe-dui-lie.md)
-* [堡垒机](bao-lei-ji.md)
 * [shell 命令常用总结](shell-ming-ling-chang-yong-zong-jie.md)
 * [数据库操作集合](shu-ju-ku-cao-zuo-ji-he.md)
 * [IO 理论梳理](io-li-lun-shu-li.md)
@@ -56,4 +55,5 @@
 * [cookie 于 session](cookie-yu-session.md)
 * [解决跨域的一些实践](jie-jue-kua-yu-de-yi-xie-shi-jian.md)
 * [redis rabbitMQ Memcache  Memcache](redis-rabbitmq-memcache-memcache.md)
+* [pycharm 的一些操作使用](pycharm-de-yi-xie-cao-zuo-shi-yong.md)
 
