@@ -56,4 +56,7 @@
 * [解决跨域的一些实践](jie-jue-kua-yu-de-yi-xie-shi-jian.md)
 * [redis rabbitMQ Memcache  Memcache](redis-rabbitmq-memcache-memcache.md)
 * [pycharm 的一些操作使用](pycharm-de-yi-xie-cao-zuo-shi-yong.md)
+* [web 框架本质初探](web-kuang-jia-ben-zhi-chu-tan.md)
+  * [mtv模型的自我尝试](web-kuang-jia-ben-zhi-chu-tan/mtvmo-xing-de-zi-wo-chang-shi.md)
+  * [模板变量demo](web-kuang-jia-ben-zhi-chu-tan/mo-ban-bian-liang-demo.md)
 
