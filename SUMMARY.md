@@ -63,7 +63,7 @@
   * [mtv模型的自我尝试](web-kuang-jia-ben-zhi-chu-tan/mtvmo-xing-de-zi-wo-chang-shi.md)
   * [模板变量demo](web-kuang-jia-ben-zhi-chu-tan/mo-ban-bian-liang-demo.md)
 * [数据结构](shu-ju-jie-gou.md)
-  * [二叉树](shu-ju-jie-gou/er-cha-shu.md)
+  * [树](shu-ju-jie-gou/er-cha-shu.md)
   * [基本概念](shu-ju-jie-gou/ji-ben-gai-nian.md)
   * [顺序表](shu-ju-jie-gou/shun-xu-biao.md)
   * [链表](shu-ju-jie-gou/lian-biao.md)
