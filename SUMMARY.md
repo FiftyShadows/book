@@ -63,4 +63,5 @@
   * [二叉树](shu-ju-jie-gou/er-cha-shu.md)
   * [基本概念](shu-ju-jie-gou/ji-ben-gai-nian.md)
   * [顺序表](shu-ju-jie-gou/shun-xu-biao.md)
+  * [链表](shu-ju-jie-gou/lian-biao.md)
 
