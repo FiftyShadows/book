@@ -9,3 +9,29 @@
 - 持续每次对越来越少的元素重复上面的步骤，直到没有任何一对数字需要比较。
 
 #冒泡排序的分析
+
+交换过程图示(第一次)：
+![](/assets/bubblesort.jpg)
+
+那么我们需要进行n-1次冒泡过程，每次对应的比较次数如下图所示：![
+](/assets/1.bmp)
+
+```python
+def bubble_sort(alist):
+    for j in range(len(alist)-1,0,-1):
+        # j表示每次遍历需要比较的次数，是逐渐减小的
+        for i in range(j):
+            if alist[i] > alist[i+1]:
+                alist[i], alist[i+1] = alist[i+1], alist[i]
+
+li = [54,26,93,17,77,31,44,55,20]
+bubble_sort(li)
+print(li)
+```
+#时间复杂度
+- 最优时间复杂度：O(n) （表示遍历一次发现没有任何可以交换的元素，排序结束。）
+- 最坏时间复杂度：O(n2)
+- 稳定性：稳定
+
+#冒泡排序的演示
+![](/assets/bubble.gif)
