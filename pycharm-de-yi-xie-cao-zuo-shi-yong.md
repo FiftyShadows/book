@@ -1,3 +1,5 @@
+
+![](/assets/3.jpg)
 #####快捷键大全:http://blog.csdn.net/qq_18863573/article/details/74910975
 #####一些常用的单独拿出来说明
 command + e:打开最近访问过的文件
