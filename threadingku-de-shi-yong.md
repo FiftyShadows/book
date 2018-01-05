@@ -1,5 +1,5 @@
 ###直接开始代码实例
-```
+```python
 # -*- coding: UTF-8 -*-
 import threading
 import time
