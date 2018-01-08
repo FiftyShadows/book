@@ -76,5 +76,6 @@
   * [队列](shu-ju-jie-gou/dui-lie.md)
 * [go web 实战](go-web-shi-zhan.md)
 * [工作点滴记录](gong-zuo-dian-di-ji-lu.md)
-  * xml 转换 dict
+  * [xml 转换 dict](gong-zuo-dian-di-ji-lu/xml-zhuan-huan-dict.md)
+* [区块链入门整理](qu-kuai-lian-ru-men-zheng-li.md)
 
