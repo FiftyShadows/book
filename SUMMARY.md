@@ -29,6 +29,8 @@
   * [数组和切片](shu-zu-he-qie-pian.md)
   * [interface](interface.md)
   * [go 并发](go-bing-fa.md)
+  * go
+  * [go get timeout 解决](go-get-timeout-jie-jue.md)
 * [常用的算法](chang-yong-de-suan-fa.md)
   * [动态规划](chang-yong-de-suan-fa/dong-tai-gui-hua.md)
   * [快速排序](chang-yong-de-suan-fa/kuai-su-pai-xu.md)
@@ -52,7 +54,6 @@
 * [协程](xie-cheng.md)
 * [什么是生产者消费者队列](shi-yao-shi-sheng-chan-zhe-xiao-fei-zhe-dui-lie.md)
 * [shell 命令常用总结](shell-ming-ling-chang-yong-zong-jie.md)
-* [数据库操作集合](shu-ju-ku-cao-zuo-ji-he.md)
 * [IO 理论梳理](io-li-lun-shu-li.md)
 * [简单理解web工作流程](jian-dan-li-jie-web-gong-zuo-liu-cheng.md)
 * [go web入门](go-webru-men.md)
@@ -74,8 +75,8 @@
   * [链表](shu-ju-jie-gou/lian-biao.md)
   * [栈](shu-ju-jie-gou/zhan.md)
   * [队列](shu-ju-jie-gou/dui-lie.md)
-* [go web 实战](go-web-shi-zhan.md)
 * [工作点滴记录](gong-zuo-dian-di-ji-lu.md)
   * [xml 转换 dict](gong-zuo-dian-di-ji-lu/xml-zhuan-huan-dict.md)
-* [区块链入门整理](qu-kuai-lian-ru-men-zheng-li.md)
+* [go gin 使用](go-gin-shi-yong.md)
+  * [务必先阅读这个!!!](go-gin-shi-yong/wu-bi-xian-yue-du-zhe-4e2a212121.md)
 
