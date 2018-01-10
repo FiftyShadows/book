@@ -60,7 +60,6 @@
 * [mongodb](mongodb.md)
 * [redis 操作](redis-cao-zuo.md)
 * [celery 操作](celery-cao-zuo.md)
-* [JWT 认证](jwt-ren-zheng.md)
 * [cookie 于 session](cookie-yu-session.md)
 * [解决跨域的一些实践](jie-jue-kua-yu-de-yi-xie-shi-jian.md)
 * [redis rabbitMQ Memcache  Memcache](redis-rabbitmq-memcache-memcache.md)
@@ -79,4 +78,5 @@
   * [xml 转换 dict](gong-zuo-dian-di-ji-lu/xml-zhuan-huan-dict.md)
 * [go gin 使用](go-gin-shi-yong.md)
   * [务必先阅读这个!!!](go-gin-shi-yong/wu-bi-xian-yue-du-zhe-4e2a212121.md)
+* [Jwt 与 OAuth](jwt-yu-oauth.md)
 
