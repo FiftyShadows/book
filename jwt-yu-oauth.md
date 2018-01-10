@@ -1,5 +1,5 @@
-jwt:http://www.jianshu.com/p/576dbf44b2ae
-Authentication（认证）和Authorization（鉴权）
+
+####Authentication（认证）和Authorization（鉴权）
 
 ##首先介绍下jwt
 
@@ -244,11 +244,5 @@ POST https://api.weibo.com/oauth2/access_token
 通过以上的方式，在简书和新浪微博中间建立了一个独立的权限层，这个权限由用户赋予，可以被用户随时取消，不同第三方应用之间相互独立，互不干扰，这样就彻底解决了明文存放账号密码的问题。
 
 
-jwt-ren-zheng.md
-@@ -1,1 +0,0 @@
-http://www.jianshu.com/p/576dbf44b2ae
-jwt-yu-oauth.md
-@@ -0,0 +1,158 @@
-jwt:http://www.jianshu.com/p/576dbf44b2ae
-Authentication（认证）和Authorization（鉴权）
+
 
