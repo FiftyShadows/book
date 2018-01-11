@@ -75,7 +75,9 @@
   * [队列](shu-ju-jie-gou/dui-lie.md)
 * [工作点滴记录](gong-zuo-dian-di-ji-lu.md)
   * [xml 转换 dict](gong-zuo-dian-di-ji-lu/xml-zhuan-huan-dict.md)
+  * [实操 oauth](gong-zuo-dian-di-ji-lu/shi-cao-oauth.md)
 * [go gin 使用](go-gin-shi-yong.md)
   * [务必先阅读这个!!!](go-gin-shi-yong/wu-bi-xian-yue-du-zhe-4e2a212121.md)
 * [Jwt 与 OAuth](jwt-yu-oauth.md)
+* [推荐一个组合](tui-jian-yi-ge-zu-he.md)
 
