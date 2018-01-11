@@ -1,4 +1,4 @@
-**具体的介绍文章写过了,记录一下实操代码,django 中使用**
+**具体的介绍文章写过了,没有借助框架,手动实现,记录一下实操代码,django 中使用**
 
 **settings**
 ```python
@@ -144,4 +144,128 @@ class OAuth2LoginBackend(django.contrib.auth.backends.ModelBackend):
             user.save()
             created = True
         return user, created
+```
+
+**views**
+```python
+# -*- coding: utf8 -*-
+
+from django.shortcuts import render,redirect
+import logging
+import io
+import logging
+import datetime
+from django.views.generic import View
+from django.contrib.auth import authenticate, login, logout
+from django.http import HttpResponseRedirect, JsonResponse, HttpResponse
+from OAuth.models import Token
+from django.core.cache import cache
+from rest_framework.views import APIView
+from django.contrib.auth.models import User
+
+logger = logging.getLogger(__name__)
+
+
+# Create your views here.
+class OAuth2CallbackView(View):
+    def get(self, request, *args, **kwargs):
+        print '进入 get 方法'
+        logger.info("收到来自 auth server 的 callback, 开始 oauth2.0 D步骤")
+        code = request.GET.get("code")
+        print '授权码:',code
+        if code is None:
+            print '授权码不存在'
+            raise AttributeError("code can NOT be None")
+
+        user = authenticate(authorization_code=code)
+
+        if user:
+            logger.info("user:{0} 登录成功".format(user.username))
+            login(request, user)
+            # one_time_key = self.save_token_key_in_cache(user=user)
+            # logger.info("user:{0} 通过 oauth2 登录成功".format(user.username))
+            # return HttpResponseRedirect("/index?code={}".format(one_time_key))
+            return HttpResponseRedirect("/index")
+        else:
+            # raise common.errors.OAuth2Error("OAuth2 登录失败")
+            logger.info("登录失败")
+            return HttpResponseRedirect("/login")
+
+    def save_token_key_in_cache(self, user):
+        token = self.get_access_token(user=user)
+        print "Token表token:",token
+        # 随机产生一个 key
+        one_time_key = token.generate_key()
+        cache_key = "access_token_read_key:{0}".format(one_time_key)
+        cache.set(cache_key, token.key, timeout=120)
+        return one_time_key
+
+    def get_access_token(self, user):
+        """
+        按照用户返回 access token , 如果这个 key 时间过期了,自动更新 key
+        :param user:
+        :return:
+        """
+        token, created = Token.objects.get_or_create(user=user)
+        if not created and (token.created < datetime.datetime.now() - datetime.timedelta(days=7)):
+            # 当这个 key 的时间超过7天后, 需要删除并重建
+            logger.info("用户 {0} 的 token 已存活超过7天期限, 不再安全, 重新生成 key ".format(user.username))
+            token.delete()
+            # 新创建一个 token 给这个用户
+            token = Token(user=user)
+            token.key = token.generate_key()
+            token.save()
+        return token
+
+
+class OAuth2GetTokenView(View):
+    """
+
+    """
+    def get(self, request, *args, **kwargs):
+        print  'token 函数'
+        one_time_key = request.GET.get("one_time_key")
+        token_key = cache.get("access_token_read_key:{0}".format(one_time_key))
+        cache.delete(token_key)
+        return JsonResponse({"token": token_key})
+
+
+def login_func(request):
+    return render(request, 'login.html')
+
+def logout_func(request):
+    logout(request)
+    return HttpResponseRedirect("/login")
+
+def index(request):
+
+    # one_time_key = request.GET.get("code")
+    # token_key = cache.get("access_token_read_key:{0}".format(one_time_key))
+    #
+    # user_id = Token.objects.get(key=str((token_key))).user_id
+    # user_name = User.objects.get(id = user_id).first_name
+
+
+    return render(request,'index.html',locals())
+```
+
+**urls**
+
+```python
+from django.conf.urls import url
+from django.contrib import admin
+from OAuth.views import *
+from django.views.generic import RedirectView
+
+urlpatterns = [
+    url(r'^admin/', admin.site.urls),
+    url(r'^$', RedirectView.as_view(url='login.html')),
+    url(r'oauth2_callback/$',OAuth2CallbackView.as_view()),
+    # url(r'^$', RedirectView.as_view(url='/static/src/_index.html')),
+    url(r'api/get_token/$', OAuth2GetTokenView.as_view()),
+    url(r'login/$', login_func,name='login'),
+    url(r'logout/$', logout_func,name='logout'),
+    url(r'index/$', index, name='index'),
+
+]
 ```
