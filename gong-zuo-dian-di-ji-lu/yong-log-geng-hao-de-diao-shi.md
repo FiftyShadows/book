@@ -1,4 +1,4 @@
-**以前一直是 print 输出信息来调试,领导告诉我要用 log 做到更好的记录
+1**以前一直是 print 输出信息来调试,领导告诉我要用 log 做到更好的记录
 django 中修改写 settings**
 ```python
 import platform
