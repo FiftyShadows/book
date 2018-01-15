@@ -10,7 +10,6 @@
   * [\(五\)装饰器](python-ji-chu-shi-yi/4e9429-zhuang-shi-qi.md)
   * [\(六\)列表生成式、生成器、迭代器和内置函数](python-ji-chu-shi-yi/516d29-lie-biao-sheng-cheng-shi-3001-sheng-cheng-qi-3001-die-dai-qi-he-nei-zhi-han-shu.md)
   * [\(七\)抽象方法抽象类](python-ji-chu-shi-yi/4e0329-chou-xiang-fang-fa-chou-xiang-lei.md)
-  * \(八\)类 第三讲
 * [python 内置库](python-nei-zhi-ku.md)
   * [logging 库的使用](logging-ku-de-shi-yong.md)
   * [threading库的使用](threadingku-de-shi-yong.md)
@@ -76,9 +75,11 @@
   * [队列](shu-ju-jie-gou/dui-lie.md)
 * [工作点滴记录](gong-zuo-dian-di-ji-lu.md)
   * [xml 转换 dict](gong-zuo-dian-di-ji-lu/xml-zhuan-huan-dict.md)
+  * [实操 oauth](gong-zuo-dian-di-ji-lu/shi-cao-oauth.md)
+  * [用 log 更好得调试](gong-zuo-dian-di-ji-lu/yong-log-geng-hao-de-diao-shi.md)
 * [go gin 使用](go-gin-shi-yong.md)
   * [务必先阅读这个!!!](go-gin-shi-yong/wu-bi-xian-yue-du-zhe-4e2a212121.md)
 * [Jwt 与 OAuth](jwt-yu-oauth.md)
-
-
+* [推荐一个组合](tui-jian-yi-ge-zu-he.md)
+* [区块链简单讲解](qu-kuai-lian-jian-dan-jiang-jie.md)
 
