@@ -20,6 +20,7 @@
   * [协程库 gevent](pythonhao-yong-de-di-san-fang-ku/xie-cheng-ku-gevent.md)
   * [必备 Anaconda](pythonhao-yong-de-di-san-fang-ku/bi-bei-anaconda.md)
   * [orm 库 sqlalchemy](pythonhao-yong-de-di-san-fang-ku/orm-ku-sqlalchemy.md)
+  * [测试 mock](pythonhao-yong-de-di-san-fang-ku/ce-shi-mock.md)
 * [go基础](goji-chu.md)
   * [go基本语法](goji-ben-yu-fa.md)
   * [go基本函数](goji-ben-han-shu.md)
