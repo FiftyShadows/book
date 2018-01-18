@@ -16,6 +16,7 @@
   * [queue 库的使用](queue-ku-de-shi-yong.md)
   * [multiprocessing 库的使用](multiprocessing-ku-de-shi-yong.md)
   * [os 库的使用](os-ku-de-shi-yong.md)
+  * [atexit](atexit.md)
 * [python好用的第三方库](pythonhao-yong-de-di-san-fang-ku.md)
   * [协程库 gevent](pythonhao-yong-de-di-san-fang-ku/xie-cheng-ku-gevent.md)
   * [必备 Anaconda](pythonhao-yong-de-di-san-fang-ku/bi-bei-anaconda.md)
