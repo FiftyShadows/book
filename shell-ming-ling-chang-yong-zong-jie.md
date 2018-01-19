@@ -46,5 +46,5 @@ find命令：查找文件和目录
 ##### $ ps aux | grep python
 查到python 的进程
 
-
-
+####  lsof -i:9000     
+查看什么占用了连9000端口
