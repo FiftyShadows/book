@@ -87,4 +87,5 @@
   * [\(二\)工作证明机制（PoW）](golang-qu-kuai-lian/4e8c29-gong-zuo-zheng-ming-ji-zhi-ff08-pow.md)
 * [什么是比特币](shi-yao-shi-bi-te-bi.md)
 * [什么是私钥](shi-yao-shi-si-yao.md)
+* [代币模式](dai-bi-mo-shi.md)
 
