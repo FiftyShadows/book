@@ -88,4 +88,7 @@
 * [什么是比特币](shi-yao-shi-bi-te-bi.md)
 * [什么是私钥](shi-yao-shi-si-yao.md)
 * [代币模式](dai-bi-mo-shi.md)
+* [公有链,联盟链,私有链](gong-you-94fe2c-lian-meng-94fe2c-si-you-lian.md)
+* [区块链基本架构](qu-kuai-lian-ji-ben-jia-gou.md)
+* [几种共识机制](ji-zhong-gong-shi-ji-zhi.md)
 
