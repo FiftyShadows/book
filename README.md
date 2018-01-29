@@ -79,6 +79,7 @@
   * [xml 转换 dict](gong-zuo-dian-di-ji-lu/xml-zhuan-huan-dict.md)
   * [实操 oauth](gong-zuo-dian-di-ji-lu/shi-cao-oauth.md)
   * [用 log 更好得调试](gong-zuo-dian-di-ji-lu/yong-log-geng-hao-de-diao-shi.md)
+  * [父类调用子类的属性](gong-zuo-dian-di-ji-lu/fu-lei-diao-yong-zi-lei-de-shu-xing.md)
 * [Jwt 与 OAuth](jwt-yu-oauth.md)
 * [推荐一个组合](tui-jian-yi-ge-zu-he.md)
 * [区块链简单讲解](qu-kuai-lian-jian-dan-jiang-jie.md)
@@ -88,4 +89,8 @@
 * [什么是比特币](shi-yao-shi-bi-te-bi.md)
 * [什么是私钥](shi-yao-shi-si-yao.md)
 * [代币模式](dai-bi-mo-shi.md)
+* [公有链,联盟链,私有链](gong-you-94fe2c-lian-meng-94fe2c-si-you-lian.md)
+* [区块链基本架构](qu-kuai-lian-ji-ben-jia-gou.md)
+* [几种共识机制](ji-zhong-gong-shi-ji-zhi.md)
+* [什么是智能合约](shi-yao-shi-zhi-neng-he-yue.md)
 
