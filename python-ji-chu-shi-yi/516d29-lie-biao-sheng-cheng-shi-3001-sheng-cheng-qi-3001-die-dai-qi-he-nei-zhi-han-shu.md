@@ -38,7 +38,7 @@ StopIteration
 ```
 还可以用函数的方式,关键字是yield, 推一个斐波那契函数
 ```python
-ef fib(max):
+def fib(max):
     n,a,b = 0,0,1
 
     while n < max:
