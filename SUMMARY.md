@@ -93,4 +93,5 @@
 * [区块链基本架构](qu-kuai-lian-ji-ben-jia-gou.md)
 * [几种共识机制](ji-zhong-gong-shi-ji-zhi.md)
 * [什么是智能合约](shi-yao-shi-zhi-neng-he-yue.md)
+* &lt;Mastering Bitcoin&gt;阅读整理
 
