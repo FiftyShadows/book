@@ -94,7 +94,8 @@
 * [区块链基本架构](qu-kuai-lian-ji-ben-jia-gou.md)
 * [几种共识机制](ji-zhong-gong-shi-ji-zhi.md)
 * [什么是智能合约](shi-yao-shi-zhi-neng-he-yue.md)
-* 以太坊开发整理
+* [以太坊开发整理](yi-tai-fang-kai-fa-zheng-li.md)
   * [geth基本使用](gethji-ben-shi-yong.md)
+  * [mist 钱包](mist-qian-bao.md)
 * [atom插件安装方法](atomcha-jian-an-zhuang-fang-fa.md)
 
