@@ -96,4 +96,5 @@
 * [什么是智能合约](shi-yao-shi-zhi-neng-he-yue.md)
 * 以太坊开发整理
   * [geth基本使用](gethji-ben-shi-yong.md)
+* [atom插件安装方法](atomcha-jian-an-zhuang-fang-fa.md)
 
