@@ -58,3 +58,19 @@ keystore中保存的是该链条中的用户信息.
 `miner.stop()`停止挖矿,返回 true
 `eth.getBalance(eth.accounts[0])`查看余额
 
+<br>
+##### 转账
+
+一定要记得要正在挖矿中才能交易
+
+再新建一个账户,步骤跟上面一样
+```shell
+> acc0 = eth.accounts[0]
+"0xbcf5b841303bc08026ce2d3b8f83498ffe42c12f"
+> acc1 = eth.accounts[1]
+"0xb8b12a801b610176935a15321f77b48dd5c0c448"
+> amount = web3.toWei(0.01)
+"10000000000000000"
+```
+再执行`eth.sendTransaction({from: acc0, to: acc1, value: amount})`
+会报错,账户没解锁.` personal.unlockAccount(acc0)`执行这句.
