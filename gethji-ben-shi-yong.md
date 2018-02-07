@@ -41,6 +41,7 @@ keystore中保存的是该链条中的用户信息.
 
 执行一条最简单的geth命令，来创建自己的私有链条
 `geth --datadir "./" --nodiscover console 2>>geth.log`
+详细点的就是`geth --datadir "./" --nodiscover --rpc --rpcaddr 127.0.0.1 --rpcport 7050 --rpcapi "db,eth,net,web3,miner,personal"  --networkid 10   console 2>>eth_log.log`
 
 进入命令行模式，其中参数
 
