@@ -22,6 +22,7 @@
   * [必备 Anaconda](pythonhao-yong-de-di-san-fang-ku/bi-bei-anaconda.md)
   * [orm 库 sqlalchemy](pythonhao-yong-de-di-san-fang-ku/orm-ku-sqlalchemy.md)
   * [测试 mock](pythonhao-yong-de-di-san-fang-ku/ce-shi-mock.md)
+  * [错误处理 traceback](pythonhao-yong-de-di-san-fang-ku/cuo-wu-chu-li-traceback.md)
 * [go基础](goji-chu.md)
   * [go基本语法](goji-ben-yu-fa.md)
   * [go基本函数](goji-ben-han-shu.md)
