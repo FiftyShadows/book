@@ -3,7 +3,7 @@
  > brew tap ethereum/ethereum
 brew install ethereum
 
-安装完后`geth version1`检查下.
+安装完后`geth version`检查下.
 
 
 建立一个文件genesis.json,填入
