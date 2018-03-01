@@ -102,6 +102,7 @@
   * [众筹合约的实现](zhong-chou-he-yue-de-shi-xian.md)
   * [mist钱包删除合约的方法](mistqian-bao-shan-chu-he-yue-de-fang-fa.md)
   * [在测试网络上部署一个智能合约](zai-ce-shi-wang-luo-shang-bu-shu-yi-ge-zhi-neng-he-yue.md)
+  * [solidity](solidity.md)
 * [atom插件安装方法](atomcha-jian-an-zhuang-fang-fa.md)
 * [truffle](truffle.md)
 * [mycat 学习笔记](mycat-xue-xi-bi-ji.md)
