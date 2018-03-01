@@ -105,4 +105,5 @@
 * [atom插件安装方法](atomcha-jian-an-zhuang-fang-fa.md)
 * [truffle](truffle.md)
 * [mycat 学习笔记](mycat-xue-xi-bi-ji.md)
+* [区块链名词解释](qu-kuai-lian-ming-ci-jie-shi.md)
 
