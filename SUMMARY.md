@@ -107,4 +107,5 @@
 * [truffle](truffle.md)
 * [mycat 学习笔记](mycat-xue-xi-bi-ji.md)
 * [区块链名词解释](qu-kuai-lian-ming-ci-jie-shi.md)
+* [django遇到TypeError: can't multiply sequence by non-int of type 'tuple'](djangoyu-dao-typeerror-can-t-multiply-sequence-by-non-int-of-type-tuple.md)
 
