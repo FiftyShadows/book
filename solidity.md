@@ -2,8 +2,7 @@
 ```js
   function _generateRandomDna(string _str) private view returns (uint) {
         // 这里开始
-    }
-    
+    }  
 ```
 ### 函数实际上没有改变 Solidity 里的状态，即，它没有改变任何值或者写任何东西。
 这种情况下我们可以把函数定义为 view, 意味着它只能读取数据不能更改数据:
