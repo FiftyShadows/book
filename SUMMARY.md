@@ -110,4 +110,5 @@
 * [区块链名词解释](qu-kuai-lian-ming-ci-jie-shi.md)
 * [django遇到TypeError: can't multiply sequence by non-int of type 'tuple'](djangoyu-dao-typeerror-can-t-multiply-sequence-by-non-int-of-type-tuple.md)
 * [以太坊的软硬分叉](yi-tai-fang-de-ruan-ying-fen-cha.md)
+* [代码人的江湖](dai-ma-ren-de-jiang-hu.md)
 
