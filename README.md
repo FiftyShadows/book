@@ -82,6 +82,7 @@
   * [实操 oauth](gong-zuo-dian-di-ji-lu/shi-cao-oauth.md)
   * [用 log 更好得调试](gong-zuo-dian-di-ji-lu/yong-log-geng-hao-de-diao-shi.md)
   * [父类调用子类的属性](gong-zuo-dian-di-ji-lu/fu-lei-diao-yong-zi-lei-de-shu-xing.md)
+  * [django 单独使用 model](gong-zuo-dian-di-ji-lu/django-dan-du-shi-yong-model.md)
 * [Jwt 与 OAuth](jwt-yu-oauth.md)
 * [推荐一个组合](tui-jian-yi-ge-zu-he.md)
 * [区块链简单讲解](qu-kuai-lian-jian-dan-jiang-jie.md)
@@ -108,4 +109,7 @@
 * [mycat 学习笔记](mycat-xue-xi-bi-ji.md)
 * [区块链名词解释](qu-kuai-lian-ming-ci-jie-shi.md)
 * [django遇到TypeError: can't multiply sequence by non-int of type 'tuple'](djangoyu-dao-typeerror-can-t-multiply-sequence-by-non-int-of-type-tuple.md)
+* [以太坊的软硬分叉](yi-tai-fang-de-ruan-ying-fen-cha.md)
+* [代码人的江湖](dai-ma-ren-de-jiang-hu.md)
+* [以太坊区块](yi-tai-fang-qu-kuai.md)
 
