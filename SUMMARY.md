@@ -111,4 +111,5 @@
 * [django遇到TypeError: can't multiply sequence by non-int of type 'tuple'](djangoyu-dao-typeerror-can-t-multiply-sequence-by-non-int-of-type-tuple.md)
 * [以太坊的软硬分叉](yi-tai-fang-de-ruan-ying-fen-cha.md)
 * [代码人的江湖](dai-ma-ren-de-jiang-hu.md)
+* [以太坊区块](yi-tai-fang-qu-kuai.md)
 
