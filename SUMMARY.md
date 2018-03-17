@@ -112,4 +112,5 @@
 * [以太坊的软硬分叉](yi-tai-fang-de-ruan-ying-fen-cha.md)
 * [代码人的江湖](dai-ma-ren-de-jiang-hu.md)
 * [以太坊区块](yi-tai-fang-qu-kuai.md)
+* [关于锁的使用](guan-yu-suo-de-shi-yong.md)
 
