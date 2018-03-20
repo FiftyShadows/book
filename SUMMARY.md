@@ -116,4 +116,5 @@
 * [以太坊区块](yi-tai-fang-qu-kuai.md)
 * [关于锁的使用](guan-yu-suo-de-shi-yong.md)
 * [golang多继承的坑](golangduo-ji-cheng-de-keng.md)
+* [golang 字符转 byte 互转](golang-zi-fu-zhuan-byte-hu-zhuan.md)
 
