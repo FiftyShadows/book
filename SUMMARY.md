@@ -85,6 +85,7 @@
   * [用 log 更好得调试](gong-zuo-dian-di-ji-lu/yong-log-geng-hao-de-diao-shi.md)
   * [父类调用子类的属性](gong-zuo-dian-di-ji-lu/fu-lei-diao-yong-zi-lei-de-shu-xing.md)
   * [django 单独使用 model](gong-zuo-dian-di-ji-lu/django-dan-du-shi-yong-model.md)
+  * [获取xml 指定属性](gong-zuo-dian-di-ji-lu/huo-qu-xml-zhi-ding-shu-xing.md)
 * [Jwt 与 OAuth](jwt-yu-oauth.md)
 * [推荐一个组合](tui-jian-yi-ge-zu-he.md)
 * [区块链简单讲解](qu-kuai-lian-jian-dan-jiang-jie.md)
