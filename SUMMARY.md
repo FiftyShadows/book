@@ -122,4 +122,5 @@
   * [简单题](jian-dan-ti.md)
     * [数字反转](jian-dan-ti/shu-zi-fan-zhuan.md)
     * [删除链表重复元素](jian-dan-ti/shan-chu-lian-biao-zhong-fu-yuan-su.md)
+* golang mysql 的基本使用
 
