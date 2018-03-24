@@ -118,9 +118,9 @@
 * [关于锁的使用](guan-yu-suo-de-shi-yong.md)
 * [golang多继承的坑](golangduo-ji-cheng-de-keng.md)
 * [golang 字符转 byte 互转](golang-zi-fu-zhuan-byte-hu-zhuan.md)
-* go+python 刷题记录
+* [go+python 刷题记录](go+python-shua-ti-ji-lu.md)
   * [简单题](jian-dan-ti.md)
     * [数字反转](jian-dan-ti/shu-zi-fan-zhuan.md)
     * [删除链表重复元素](jian-dan-ti/shan-chu-lian-biao-zhong-fu-yuan-su.md)
-* golang mysql 的基本使用
+* [golang mysql 的基本使用](golang-mysql-de-ji-ben-shi-yong.md)
 
