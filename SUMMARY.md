@@ -125,4 +125,5 @@
 * [golang mysql 的基本使用](golang-mysql-de-ji-ben-shi-yong.md)
 * [日志查询系统的反思](ri-zhi-cha-xun-xi-tong-de-fan-si.md)
 * [kafka的应用场景](kafkade-ying-yong-chang-jing.md)
+* [go mysql 事务](go-mysql-shi-wu.md)
 
