@@ -1,0 +1,1 @@
+用这个命令 `sudo npm install xxxx --unsafe-perm=true --allow-root`
