@@ -123,4 +123,5 @@
 * [kafka的应用场景](kafkade-ying-yong-chang-jing.md)
 * [go mysql 事务](go-mysql-shi-wu.md)
 * [加了 sudo 仍然提示权限问题](jia-le-sudo-reng-ran-ti-shi-quan-xian-wen-ti.md)
+* [truffle 部署到测试网络上](truffle-bu-shu-dao-ce-shi-wang-luo-shang.md)
 
