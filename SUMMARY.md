@@ -125,4 +125,5 @@
 * [加了 sudo 仍然提示权限问题](jia-le-sudo-reng-ran-ti-shi-quan-xian-wen-ti.md)
 * [truffle 部署到测试网络上](truffle-bu-shu-dao-ce-shi-wang-luo-shang.md)
 * [手撸了一个验证码生成器](shou-lu-le-yi-ge-yan-zheng-ma-sheng-cheng-qi.md)
+* [mac menu 栏显示插件编写](mac-menu-lan-xian-shi-cha-jian-bian-xie.md)
 
