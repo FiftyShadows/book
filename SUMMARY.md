@@ -127,4 +127,5 @@
 * [手撸了一个验证码生成器](shou-lu-le-yi-ge-yan-zheng-ma-sheng-cheng-qi.md)
 * [mac menu 栏显示插件编写](mac-menu-lan-xian-shi-cha-jian-bian-xie.md)
 * [django 一些常见的库](django-yi-xie-chang-jian-de-ku.md)
+* [POS 的golang 实现](pos-de-golang-shi-xian.md)
 
