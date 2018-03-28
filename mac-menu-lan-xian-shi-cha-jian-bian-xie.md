@@ -3,7 +3,7 @@
 github:https://github.com/matryer/bitbar
 
 ###文件名为mybitbar.20s.py,我放在了文档目录下
-20s 是刷新频率
+####20s 是刷新频率
 ```python
 #!/usr/bin/python
 # -*- coding: utf8 -*-
