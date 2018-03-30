@@ -128,4 +128,5 @@
 * [mac menu 栏显示插件编写](mac-menu-lan-xian-shi-cha-jian-bian-xie.md)
 * [django 一些常见的库](django-yi-xie-chang-jian-de-ku.md)
 * [POS 的golang 实现](pos-de-golang-shi-xian.md)
+* [python 起 http 服务访问文件](python-qi-http-fu-wu-fang-wen-wen-jian.md)
 
