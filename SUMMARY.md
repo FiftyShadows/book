@@ -116,8 +116,6 @@
 * [代码人的江湖](dai-ma-ren-de-jiang-hu.md)
 * [以太坊区块](yi-tai-fang-qu-kuai.md)
 * [关于锁的使用](guan-yu-suo-de-shi-yong.md)
-* [golang多继承的坑](golangduo-ji-cheng-de-keng.md)
-* [golang 字符转 byte 互转](golang-zi-fu-zhuan-byte-hu-zhuan.md)
 * [golang mysql 的基本使用](golang-mysql-de-ji-ben-shi-yong.md)
 * [日志查询系统的反思](ri-zhi-cha-xun-xi-tong-de-fan-si.md)
 * [kafka的应用场景](kafkade-ying-yong-chang-jing.md)
@@ -129,4 +127,8 @@
 * [django 一些常见的库](django-yi-xie-chang-jian-de-ku.md)
 * [POS 的golang 实现](pos-de-golang-shi-xian.md)
 * [python 起 http 服务访问文件](python-qi-http-fu-wu-fang-wen-wen-jian.md)
+* [go 各种坑记录](go-ge-zhong-keng-ji-lu.md)
+  * [go 多继承的坑](go-ge-zhong-keng-ji-lu/go-duo-ji-cheng-de-keng.md)
+  * [golang 字符串 byte 互转](go-ge-zhong-keng-ji-lu/golang-zi-fu-chuan-byte-hu-zhuan.md)
+  * [golang 循环赋值指针错误](go-ge-zhong-keng-ji-lu/golang-xun-huan-fu-zhi-zhi-zhen-cuo-wu.md)
 
