@@ -109,7 +109,6 @@
   * [solidity](solidity.md)
 * [atom插件安装方法](atomcha-jian-an-zhuang-fang-fa.md)
 * [truffle](truffle.md)
-* [mycat 学习笔记](mycat-xue-xi-bi-ji.md)
 * [区块链名词解释](qu-kuai-lian-ming-ci-jie-shi.md)
 * [django遇到TypeError: can't multiply sequence by non-int of type 'tuple'](djangoyu-dao-typeerror-can-t-multiply-sequence-by-non-int-of-type-tuple.md)
 * [以太坊的软硬分叉](yi-tai-fang-de-ruan-ying-fen-cha.md)
@@ -131,4 +130,5 @@
   * [go 多继承的坑](go-ge-zhong-keng-ji-lu/go-duo-ji-cheng-de-keng.md)
   * [golang 字符串 byte 互转](go-ge-zhong-keng-ji-lu/golang-zi-fu-chuan-byte-hu-zhuan.md)
   * [golang 循环赋值指针错误](go-ge-zhong-keng-ji-lu/golang-xun-huan-fu-zhi-zhi-zhen-cuo-wu.md)
+* [分库分表\( mycat\)](fen-ku-fen-886828-mycat.md)
 
