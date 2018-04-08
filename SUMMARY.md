@@ -37,6 +37,10 @@
   * [类型断言 ](lei-xing-duan-yan.md)
   * [go 格式化输出](go-ge-shi-hua-shu-chu.md)
   * [func 也是个 type 类型](func-ye-shi-ge-type-lei-xing.md)
+  * [interface 多态](interface-duo-tai.md)
+  * [如何处理错误](ru-he-chu-li-cuo-wu.md)
+  * go 字符串的常用操作
+  * [go json](go-json.md)
 * [常用的算法](chang-yong-de-suan-fa.md)
   * [动态规划](chang-yong-de-suan-fa/dong-tai-gui-hua.md)
   * [快速排序](chang-yong-de-suan-fa/kuai-su-pai-xu.md)
