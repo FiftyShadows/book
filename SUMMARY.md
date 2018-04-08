@@ -36,6 +36,7 @@
   * [golang没有构造函数的解决方案](golangmei-you-gou-zao-han-shu-de-jie-jue-fang-an.md)
   * [类型断言 ](lei-xing-duan-yan.md)
   * [go 格式化输出](go-ge-shi-hua-shu-chu.md)
+  * [func 也是个 type 类型](func-ye-shi-ge-type-lei-xing.md)
 * [常用的算法](chang-yong-de-suan-fa.md)
   * [动态规划](chang-yong-de-suan-fa/dong-tai-gui-hua.md)
   * [快速排序](chang-yong-de-suan-fa/kuai-su-pai-xu.md)
