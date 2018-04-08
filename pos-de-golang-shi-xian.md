@@ -1,3 +1,7 @@
+在开始写代码之前，我们需要一个环境变量来设置TCP服务器的端口，首先在工作文件夹中创建.env文件，写入一行配置：
+ADDR=9000
+
+```go
 package main
 
 import (
@@ -15,7 +19,6 @@ import (
 "sync"
 "time"
 
-```go
 "github.com/davecgh/go-spew/spew"
 "github.com/joho/godotenv"
 )
