@@ -5,3 +5,9 @@
 ![](/assets/WX20180408-104025@2x.png)
 删除同一个` IMAGE ID`会报错
 `docker rmi hyperledger/fabric-couchdb:latest`删除的时候用`REPOSITORY`:`TAG`
+
+
+<br>
+`docker rmi -f $(docker images --format "{{.Repository}}" |grep "^test_*")`可以批量删除 test_ 开头的镜像
+`docker rm $(docker ps --all -q -f status=exited)`删除停止的容器
+`docker rmi -f $(docker images | grep "<none>" | awk "{print \$3}")`删除没有使用的镜像
