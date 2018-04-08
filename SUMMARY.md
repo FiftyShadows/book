@@ -31,7 +31,6 @@
   * [数组和切片](shu-zu-he-qie-pian.md)
   * [interface](interface.md)
   * [go 并发](go-bing-fa.md)
-  * go
   * [go get timeout 解决](go-get-timeout-jie-jue.md)
   * [golang没有构造函数的解决方案](golangmei-you-gou-zao-han-shu-de-jie-jue-fang-an.md)
   * [类型断言 ](lei-xing-duan-yan.md)

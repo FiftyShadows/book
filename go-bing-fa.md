@@ -1,4 +1,4 @@
-####关键字 go 即可启动并发,用 python 的我简直惊呆了
+####关键字 go 即可启动并发(协程),用 python 的我简直惊呆了
 ####先来一个sync 包
 #####sync 包提供了互斥锁这类的基本的同步原语.除 Once 和 WaitGroup 之外的类型大多用于底层库的例程。更高级的同步操作通过信道与通信进行。
 WaitGroup总共有三个方法：Add(delta int),　Done(),　Wait()。
