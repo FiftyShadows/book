@@ -38,7 +38,7 @@
   * [func 也是个 type 类型](func-ye-shi-ge-type-lei-xing.md)
   * [interface 多态](interface-duo-tai.md)
   * [如何处理错误](ru-he-chu-li-cuo-wu.md)
-  * go 字符串的常用操作
+  * [go 字符串的常用操作](go-zi-fu-chuan-de-chang-yong-cao-zuo.md)
   * [go json](go-json.md)
   * [go 并发  第二次记录](go-bing-fa-di-er-ci-ji-lu.md)
   * [golang 定时器](golang-ding-shi-qi.md)
