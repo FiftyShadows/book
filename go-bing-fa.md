@@ -1,4 +1,5 @@
 ####关键字 go 即可启动并发(协程),用 python 的我简直惊呆了
+####goroutine运行在相同的地址空间，因此访问共享内存必须做好同步。goroutine 奉行通过通信来共享内存，而不是共享内存来通信。
 ####先来一个sync 包
 #####sync 包提供了互斥锁这类的基本的同步原语.除 Once 和 WaitGroup 之外的类型大多用于底层库的例程。更高级的同步操作通过信道与通信进行。
 WaitGroup总共有三个方法：Add(delta int),　Done(),　Wait()。
@@ -320,7 +321,14 @@ func main() {
 }
 ```
 ####channel阻塞超时处理：
-goroutine有时候会进入阻塞情况，那么如何避免由于channel阻塞导致整个程序阻塞的发生那？解决方案：通过select设置超时处理，具体程序如下：
+#####goroutine有时候会进入阻塞情况，那么如何避免由于channel阻塞导致整个程序阻塞的发生那？解决方案：通过select设置超时处理，select的用法与switch语言非常类似，由select开始一个新的选择块，每个选择条件由case语句来描述。
+#####与switch语句可以选择任何可使用相等比较的条件相比， select有比较多的限制，其中最大的一条限制就是每个case语句里必须是一个IO操作，具体程序如下：
+```go
+
+select {    case <-chan1:        // 如果chan1成功读到数据，则进行该case处理语句    case chan2 <- 1:        // 如果成功向chan2写入数据，则进行该case处理语句    default:        // 如果上面都没有成功，则进入default处理流程    }
+```
+在一个select语句中，Go语言会按顺序从头至尾评估每一个发送和接收的语句。如果其中的任意一语句可以继续执行(即没有被阻塞)，那么就从那些可以执行的语句中任意选择一条来使用。
+如果没有任意一条语句可以执行(即所有的通道都被阻塞)，那么有两种可能的情况：如果给出了default语句，那么就会执行default语句，同时程序的执行会从select语句后的语句中恢复。如果没有default语句，那么select语句将被阻塞，直到至少有一个通信可以进行下去。
 ```go
 package main
 
@@ -346,4 +354,11 @@ func main() {
     }()
     <-o
 }
+```
+####单方向的channel
+
+```go
+var ch1 chan int       // ch1是一个正常的channel，不是单向的
+var ch2 chan<- float64 // ch2是单向channel，只用于写float64数据
+var ch3 <-chan int     // ch3是单向channel，只用于读取int数据
 ```
