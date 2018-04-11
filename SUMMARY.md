@@ -141,6 +141,4 @@
 * [分库分表\( mycat\)](fen-ku-fen-886828-mycat.md)
 * [docker 删除相同IMAGE ID的坑](docker-shan-chu-xiang-tong-image-id-de-keng.md)
 * [go 模拟高并发](go-mo-ni-gao-bing-fa.md)
-* golang gin 学习全记录
-  * [立项](li-xiang.md)
 
