@@ -140,4 +140,5 @@
   * [golang 循环赋值指针错误](go-ge-zhong-keng-ji-lu/golang-xun-huan-fu-zhi-zhi-zhen-cuo-wu.md)
 * [分库分表\( mycat\)](fen-ku-fen-886828-mycat.md)
 * [docker 删除相同IMAGE ID的坑](docker-shan-chu-xiang-tong-image-id-de-keng.md)
+* [go 模拟高并发](go-mo-ni-gao-bing-fa.md)
 
