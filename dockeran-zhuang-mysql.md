@@ -10,3 +10,8 @@ GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY '123456';
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '123456';
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'192.168.12.5' IDENTIFIED BY '123456';
 ```
+
+
+例如：docker run --name test-mysql -p 3308:3306 -e MYSQL_ROOT_PASSWORD=password -dmysql/mysql-server:latest
+
+含义：容器的名字为test-mysql，将容器的3308端口映射到本机的3306端口，mysql数据库的密码为password ，运行的镜像为mysql/mysql-server:latest
