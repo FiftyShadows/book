@@ -42,6 +42,7 @@
   * [go json](go-json.md)
   * [go 并发  第二次记录](go-bing-fa-di-er-ci-ji-lu.md)
   * [golang 定时器](golang-ding-shi-qi.md)
+  * 手动安装第三方库
 * [常用的算法](chang-yong-de-suan-fa.md)
   * [动态规划](chang-yong-de-suan-fa/dong-tai-gui-hua.md)
   * [快速排序](chang-yong-de-suan-fa/kuai-su-pai-xu.md)
