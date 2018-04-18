@@ -146,4 +146,5 @@
 * [golang 周期/定时任务的实现](golang-zhou-671f-ding-shi-ren-wu-de-shi-xian.md)
 * [docker安装 mysql](dockeran-zhuang-mysql.md)
 * [redis 和 Memcached的具体比较](redis-he-memcached-de-ju-ti-bi-jiao.md)
+* [mysql 远程授权的巨坑](mysql-yuan-cheng-shou-quan-de-ju-keng.md)
 
