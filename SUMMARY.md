@@ -113,7 +113,6 @@
   * [代币的基本功能实现](dai-bi-de-ji-ben-gong-neng-shi-xian.md)
   * [众筹合约的实现](zhong-chou-he-yue-de-shi-xian.md)
   * [mist钱包删除合约的方法](mistqian-bao-shan-chu-he-yue-de-fang-fa.md)
-  * [在测试网络上部署一个智能合约](zai-ce-shi-wang-luo-shang-bu-shu-yi-ge-zhi-neng-he-yue.md)
   * [solidity](solidity.md)
   * [web3.js](web3js.md)
 * [atom插件安装方法](atomcha-jian-an-zhuang-fang-fa.md)
@@ -140,7 +139,6 @@
   * [golang 字符串 byte 互转](go-ge-zhong-keng-ji-lu/golang-zi-fu-chuan-byte-hu-zhuan.md)
   * [golang 循环赋值指针错误](go-ge-zhong-keng-ji-lu/golang-xun-huan-fu-zhi-zhi-zhen-cuo-wu.md)
 * [分库分表\( mycat\)](fen-ku-fen-886828-mycat.md)
-* [docker 删除相同IMAGE ID的坑](docker-shan-chu-xiang-tong-image-id-de-keng.md)
 * [go 模拟高并发](go-mo-ni-gao-bing-fa.md)
 * [golang 高逼格的构造函数](golang-gao-bi-ge-de-gou-zao-han-shu.md)
 * [golang 周期/定时任务的实现](golang-zhou-671f-ding-shi-ren-wu-de-shi-xian.md)
@@ -149,4 +147,5 @@
 * [mysql 远程授权的巨坑](mysql-yuan-cheng-shou-quan-de-ju-keng.md)
 * [swarm 搭建 mac 的 doker 环境](swarm-da-jian-mac-de-doker-huan-jing.md)
 * [golang 的时区问题](golang-de-shi-qu-wen-ti.md)
+* [docker 常用命令](docker-chang-yong-ming-ling.md)
 
