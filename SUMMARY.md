@@ -55,6 +55,7 @@
   * [希尔排序](chang-yong-de-suan-fa/xi-er-pai-xu.md)
   * [归并排序](chang-yong-de-suan-fa/gui-bing-pai-xu.md)
   * [常见排序算法效率比较](chang-yong-de-suan-fa/chang-jian-pai-xu-suan-fa-xiao-lv-bi-jiao.md)
+  * [单链表倒序](chang-yong-de-suan-fa/dan-lian-biao-dao-xu.md)
 * [Django REST framework 笔记](django-rest-framework-bi-ji.md)
   * [基础使用](ji-chu-shi-yong.md)
   * [项目文件](xiang-mu-wen-jian.md)
