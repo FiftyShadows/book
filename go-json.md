@@ -14,7 +14,7 @@ type IT struct {
     Subjects []string `json:"subjects"`
 
     //转换为字符串，再输出
-    IsOk bool `json:",string"`
+    IsOk bool `json:"string"`
 
     // 如果 Price 为空，则不输出到JSON串中
     Price float64 `json:"price, omitempty"`
