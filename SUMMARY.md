@@ -43,6 +43,7 @@
   * [go 并发  第二次记录](go-bing-fa-di-er-ci-ji-lu.md)
   * [golang 定时器](golang-ding-shi-qi.md)
   * 手动安装第三方库
+  * [make new 区别](make-new-qu-bie.md)
 * [常用的算法](chang-yong-de-suan-fa.md)
   * [动态规划](chang-yong-de-suan-fa/dong-tai-gui-hua.md)
   * [快速排序](chang-yong-de-suan-fa/kuai-su-pai-xu.md)
@@ -121,7 +122,6 @@
 * [区块链名词解释](qu-kuai-lian-ming-ci-jie-shi.md)
 * [django遇到TypeError: can't multiply sequence by non-int of type 'tuple'](djangoyu-dao-typeerror-can-t-multiply-sequence-by-non-int-of-type-tuple.md)
 * [以太坊的软硬分叉](yi-tai-fang-de-ruan-ying-fen-cha.md)
-* [代码人的江湖](dai-ma-ren-de-jiang-hu.md)
 * [以太坊区块](yi-tai-fang-qu-kuai.md)
 * [关于锁的使用](guan-yu-suo-de-shi-yong.md)
 * [golang mysql 的基本使用](golang-mysql-de-ji-ben-shi-yong.md)
