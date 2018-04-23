@@ -78,7 +78,6 @@
   * [go 多继承的坑](go-ge-zhong-keng-ji-lu/go-duo-ji-cheng-de-keng.md)
   * [golang 字符串 byte 互转](go-ge-zhong-keng-ji-lu/golang-zi-fu-chuan-byte-hu-zhuan.md)
   * [golang 循环赋值指针错误](go-ge-zhong-keng-ji-lu/golang-xun-huan-fu-zhi-zhi-zhen-cuo-wu.md)
-
 * [工作点滴记录](gong-zuo-dian-di-ji-lu.md)
   * [xml 转换 dict](gong-zuo-dian-di-ji-lu/xml-zhuan-huan-dict.md)
   * [实操 oauth](gong-zuo-dian-di-ji-lu/shi-cao-oauth.md)
@@ -86,8 +85,10 @@
   * [父类调用子类的属性](gong-zuo-dian-di-ji-lu/fu-lei-diao-yong-zi-lei-de-shu-xing.md)
   * [django 单独使用 model](gong-zuo-dian-di-ji-lu/django-dan-du-shi-yong-model.md)
   * [获取xml 指定属性](gong-zuo-dian-di-ji-lu/huo-qu-xml-zhi-ding-shu-xing.md)
-
 * [mysql 各种集合](mysql-ge-zhong-ji-he.md)
+  * [最基础的命令](mysql-ge-zhong-ji-he/zui-ji-chu-de-ming-ling.md)
+  * [几种约束](mysql-ge-zhong-ji-he/ji-zhong-yue-shu.md)
+  * [索引类型](mysql-ge-zhong-ji-he/suo-yin-lei-xing.md)
 * [进程与线程](jin-cheng-yu-xian-cheng.md)
 * [socket通信](sockettong-xin.md)
 * [协程](xie-cheng.md)
@@ -103,9 +104,7 @@
 * [解决跨域的一些实践](jie-jue-kua-yu-de-yi-xie-shi-jian.md)
 * [redis rabbitMQ Memcache  Memcache](redis-rabbitmq-memcache-memcache.md)
 * [pycharm 的一些操作使用](pycharm-de-yi-xie-cao-zuo-shi-yong.md)
-
 * [Jwt 与 OAuth](jwt-yu-oauth.md)
-* [推荐一个组合](tui-jian-yi-ge-zu-he.md)
 * [区块链简单讲解](qu-kuai-lian-jian-dan-jiang-jie.md)
 * [golang 区块链](golang-qu-kuai-lian.md)
   * [\(一\)原型](golang-qu-kuai-lian/4e0029-yuan-xing.md)
@@ -143,7 +142,6 @@
 * [django 一些常见的库](django-yi-xie-chang-jian-de-ku.md)
 * [POS 的golang 实现](pos-de-golang-shi-xian.md)
 * [python 起 http 服务访问文件](python-qi-http-fu-wu-fang-wen-wen-jian.md)
-
 * [分库分表\( mycat\)](fen-ku-fen-886828-mycat.md)
 * [go 模拟高并发](go-mo-ni-gao-bing-fa.md)
 * [golang 高逼格的构造函数](golang-gao-bi-ge-de-gou-zao-han-shu.md)
