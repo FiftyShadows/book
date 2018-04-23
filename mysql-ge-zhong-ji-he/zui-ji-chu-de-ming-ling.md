@@ -47,7 +47,7 @@ creat table color(
 #####7.删除和清空表
 ```
 删除
-drop table 表名
+    drop table 表名
 清空
 delete from 表名
 truncate table 表名

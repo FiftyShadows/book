@@ -89,6 +89,8 @@
   * [最基础的命令](mysql-ge-zhong-ji-he/zui-ji-chu-de-ming-ling.md)
   * [几种约束](mysql-ge-zhong-ji-he/ji-zhong-yue-shu.md)
   * [索引类型](mysql-ge-zhong-ji-he/suo-yin-lei-xing.md)
+  * [一对多,一对一,多对多](mysql-ge-zhong-ji-he/yi-dui-591a2c-yi-dui-4e002c-duo-dui-duo.md)
+  * [级联操作](mysql-ge-zhong-ji-he/ji-lian-cao-zuo.md)
 * [进程与线程](jin-cheng-yu-xian-cheng.md)
 * [socket通信](sockettong-xin.md)
 * [协程](xie-cheng.md)
