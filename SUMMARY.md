@@ -63,6 +63,8 @@
   * [搭配 django\_filter](da-pei-django-filter.md)
   * [多级分类的一次尝试](duo-ji-fen-lei-de-yi-ci-chang-shi.md)
   * [DRF-JWT](drf-jwt.md)
+* mysql 各种集合
+
 * [进程与线程](jin-cheng-yu-xian-cheng.md)
 * [socket通信](sockettong-xin.md)
 * [协程](xie-cheng.md)
@@ -149,4 +151,5 @@
 * [swarm 搭建 mac 的 doker 环境](swarm-da-jian-mac-de-doker-huan-jing.md)
 * [golang 的时区问题](golang-de-shi-qu-wen-ti.md)
 * [docker 常用命令](docker-chang-yong-ming-ling.md)
+
 
