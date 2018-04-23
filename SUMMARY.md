@@ -63,8 +63,7 @@
   * [搭配 django\_filter](da-pei-django-filter.md)
   * [多级分类的一次尝试](duo-ji-fen-lei-de-yi-ci-chang-shi.md)
   * [DRF-JWT](drf-jwt.md)
-* mysql 各种集合
-
+* [mysql 各种集合](mysql-ge-zhong-ji-he.md)
 * [进程与线程](jin-cheng-yu-xian-cheng.md)
 * [socket通信](sockettong-xin.md)
 * [协程](xie-cheng.md)
@@ -91,6 +90,11 @@
   * [栈](shu-ju-jie-gou/zhan.md)
   * [队列](shu-ju-jie-gou/dui-lie.md)
   * [哈希表](shu-ju-jie-gou/ha-xi-biao.md)
+* [go 各种坑记录](go-ge-zhong-keng-ji-lu.md)
+  * [go 多继承的坑](go-ge-zhong-keng-ji-lu/go-duo-ji-cheng-de-keng.md)
+  * [golang 字符串 byte 互转](go-ge-zhong-keng-ji-lu/golang-zi-fu-chuan-byte-hu-zhuan.md)
+  * [golang 循环赋值指针错误](go-ge-zhong-keng-ji-lu/golang-xun-huan-fu-zhi-zhi-zhen-cuo-wu.md)
+
 * [工作点滴记录](gong-zuo-dian-di-ji-lu.md)
   * [xml 转换 dict](gong-zuo-dian-di-ji-lu/xml-zhuan-huan-dict.md)
   * [实操 oauth](gong-zuo-dian-di-ji-lu/shi-cao-oauth.md)
@@ -137,10 +141,7 @@
 * [django 一些常见的库](django-yi-xie-chang-jian-de-ku.md)
 * [POS 的golang 实现](pos-de-golang-shi-xian.md)
 * [python 起 http 服务访问文件](python-qi-http-fu-wu-fang-wen-wen-jian.md)
-* [go 各种坑记录](go-ge-zhong-keng-ji-lu.md)
-  * [go 多继承的坑](go-ge-zhong-keng-ji-lu/go-duo-ji-cheng-de-keng.md)
-  * [golang 字符串 byte 互转](go-ge-zhong-keng-ji-lu/golang-zi-fu-chuan-byte-hu-zhuan.md)
-  * [golang 循环赋值指针错误](go-ge-zhong-keng-ji-lu/golang-xun-huan-fu-zhi-zhi-zhen-cuo-wu.md)
+
 * [分库分表\( mycat\)](fen-ku-fen-886828-mycat.md)
 * [go 模拟高并发](go-mo-ni-gao-bing-fa.md)
 * [golang 高逼格的构造函数](golang-gao-bi-ge-de-gou-zao-han-shu.md)
@@ -151,5 +152,4 @@
 * [swarm 搭建 mac 的 doker 环境](swarm-da-jian-mac-de-doker-huan-jing.md)
 * [golang 的时区问题](golang-de-shi-qu-wen-ti.md)
 * [docker 常用命令](docker-chang-yong-ming-ling.md)
-
 
