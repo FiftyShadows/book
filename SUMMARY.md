@@ -42,8 +42,9 @@
   * [go json](go-json.md)
   * [go 并发  第二次记录](go-bing-fa-di-er-ci-ji-lu.md)
   * [golang 定时器](golang-ding-shi-qi.md)
-  * 手动安装第三方库
+  * [手动安装第三方库](shou-dong-an-zhuang-di-san-fang-ku.md)
   * [make new 区别](make-new-qu-bie.md)
+  * [golang 装饰器模式](golang-zhuang-shi-qi-mo-shi.md)
 * [常用的算法](chang-yong-de-suan-fa.md)
   * [动态规划](chang-yong-de-suan-fa/dong-tai-gui-hua.md)
   * [快速排序](chang-yong-de-suan-fa/kuai-su-pai-xu.md)
@@ -91,7 +92,12 @@
   * [索引类型](mysql-ge-zhong-ji-he/suo-yin-lei-xing.md)
   * [一对多,一对一,多对多](mysql-ge-zhong-ji-he/yi-dui-591a2c-yi-dui-4e002c-duo-dui-duo.md)
   * [级联操作](mysql-ge-zhong-ji-he/ji-lian-cao-zuo.md)
-* gin 框架初学
+  * [分页](mysql-ge-zhong-ji-he/fen-ye.md)
+  * [几个连接的使用](mysql-ge-zhong-ji-he/ji-ge-lian-jie-de-shi-yong.md)
+* [gin 框架初学](gin-kuang-jia-chu-xue.md)
+  * [配置文件的解决](gin-kuang-jia-chu-xue/pei-zhi-wen-jian-de-jie-jue.md)
+  * [文档初读](gin-kuang-jia-chu-xue/wen-dang-chu-du.md)
+  * [完整项目练习](gin-kuang-jia-chu-xue/wan-zheng-xiang-mu-lian-xi.md)
 * [golang 区块链](golang-qu-kuai-lian.md)
   * [\(一\)原型](golang-qu-kuai-lian/4e0029-yuan-xing.md)
   * [\(二\)工作证明机制（PoW）](golang-qu-kuai-lian/4e8c29-gong-zuo-zheng-ming-ji-zhi-ff08-pow.md)
@@ -120,7 +126,6 @@
 * [pycharm 的一些操作使用](pycharm-de-yi-xie-cao-zuo-shi-yong.md)
 * [Jwt 与 OAuth](jwt-yu-oauth.md)
 * [区块链简单讲解](qu-kuai-lian-jian-dan-jiang-jie.md)
-
 * [什么是比特币](shi-yao-shi-bi-te-bi.md)
 * [什么是私钥](shi-yao-shi-si-yao.md)
 * [代币模式](dai-bi-mo-shi.md)
@@ -128,7 +133,6 @@
 * [区块链基本架构](qu-kuai-lian-ji-ben-jia-gou.md)
 * [几种共识机制](ji-zhong-gong-shi-ji-zhi.md)
 * [什么是智能合约](shi-yao-shi-zhi-neng-he-yue.md)
-
 * [atom插件安装方法](atomcha-jian-an-zhuang-fang-fa.md)
 * [truffle](truffle.md)
 * [区块链名词解释](qu-kuai-lian-ming-ci-jie-shi.md)
@@ -147,7 +151,6 @@
 * [django 一些常见的库](django-yi-xie-chang-jian-de-ku.md)
 * [POS 的golang 实现](pos-de-golang-shi-xian.md)
 * [python 起 http 服务访问文件](python-qi-http-fu-wu-fang-wen-wen-jian.md)
-* [分库分表\( mycat\)](fen-ku-fen-886828-mycat.md)
 * [go 模拟高并发](go-mo-ni-gao-bing-fa.md)
 * [golang 高逼格的构造函数](golang-gao-bi-ge-de-gou-zao-han-shu.md)
 * [golang 周期/定时任务的实现](golang-zhou-671f-ding-shi-ren-wu-de-shi-xian.md)
@@ -156,5 +159,6 @@
 * [mysql 远程授权的巨坑](mysql-yuan-cheng-shou-quan-de-ju-keng.md)
 * [golang 的时区问题](golang-de-shi-qu-wen-ti.md)
 * [docker 常用命令](docker-chang-yong-ming-ling.md)
-
+* [grpc 练习](grpc-lian-xi.md)
+  * 安装及其基本使用
 

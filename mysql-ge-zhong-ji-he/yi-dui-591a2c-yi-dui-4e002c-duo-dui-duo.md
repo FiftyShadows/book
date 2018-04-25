@@ -1,5 +1,4 @@
 
-
 ###一对多
 
 #####一个班级对应多个学生
@@ -71,4 +70,29 @@ score int
 
 insert into student2course (student_id,course_id,score) values(1,1,60),(1,2,59),(2,2,100);
 ```
+Sid Sname 
+001 小王 
+002 小李 
+003 小张 
+004 小刘 
+
+Tid Tname 
+001 数学 
+002 语文 
+003 英语
+
+Sid Tid 
+001 001 
+001 002 
+001 003 
+002 001 
+002 002 
+003 003 
+
+1.查询同时选修了数学和语文（不包含英语）的学生姓名
+答：select \* from table1 where sid in (select Sid from table3 where Tid=001 and Tid=002) group by sid
+2 查询至少选修了语文和数学（可能包含英语）的学生姓名
+答：select \* from table1 where sid in (select Sid from table3 where Tid=001 and Tid=002 or Tid=003) group by sid
+3 查询没有选修语文和数学的学生姓名
+答：select \* from table1 where sid in(select Sid from table3 where Tid=003) group by sid
 

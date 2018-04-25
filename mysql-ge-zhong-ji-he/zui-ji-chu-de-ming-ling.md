@@ -1,3 +1,16 @@
+执行顺序
+
+```sql
+select * 
+from 表名
+where ...
+group by ....having...
+order by...
+limit start ,count
+```
+
+
+
 #####1.进入数据库
 
 `mysql -h 127.0.0.1 -u root -p`
@@ -30,17 +43,17 @@
 ```
 
 #####6.创建表(对于自增列，必须是索引（含主键))
-```
+```sql
 creat table color(
-                nid int not null primary key,
-                name char(16) not null
+    nid int not null primary key  auto_increment,
+    name char(16) not null
             )
 
-            create table fruit(
-                nid int not null primary key,
-                smt char(32) null ,
-                color_id int not null,
-                constraint fk_cc foreign key (color_id) references color(nid)
+create table fruit(
+    nid int not null primary key,
+    smt char(32) null ,
+    color_id int not null,
+    constraint fk_cc foreign key (color_id) references color(nid)
             )
 ```
 
@@ -58,8 +71,8 @@ truncate table 表名
 添加列：alter table 表名 add 列名 类型
 删除列：alter table 表名 drop column 列名
 修改列：
-        alter table 表名 modify column 列名 类型;  -- 类型
-        alter table 表名 change 原列名 新列名 类型; -- 列名，类型
+        alter table 表名 modify column 列名 新类型;  
+        alter table 表名 change 原列名 新列名 类型; 
   
 添加主键：
         alter table 表名 add primary key(列名);
@@ -67,8 +80,10 @@ truncate table 表名
         alter table 表名 drop primary key;
         alter table 表名  modify  列名 int, drop primary key;
   
-添加外键：alter table 从表 add constraint 外键名称（形如：FK_从表_主表） foreign key 从表(外键字段) references 主表(主键字段);
-删除外键：alter table 表名 drop foreign key 外键名称
+添加外键：
+    alter table 从表 add constraint 外键名称（形如：FK_从表_主表）             foreign key 从表(外键字段) references 主表(主键字段);
+删除外键：
+alter table 表名 drop foreign key 外键名称
   
 修改默认值：ALTER TABLE testalter_tbl ALTER i SET DEFAULT 1000;
 删除默认值：ALTER TABLE testalter_tbl ALTER i DROP DEFAULT;
