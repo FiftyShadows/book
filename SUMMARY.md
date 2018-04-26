@@ -94,6 +94,7 @@
   * [级联操作](mysql-ge-zhong-ji-he/ji-lian-cao-zuo.md)
   * [分页](mysql-ge-zhong-ji-he/fen-ye.md)
   * [几个连接的使用](mysql-ge-zhong-ji-he/ji-ge-lian-jie-de-shi-yong.md)
+  * [自关联](mysql-ge-zhong-ji-he/zi-guan-lian.md)
 * [gin 框架初学](gin-kuang-jia-chu-xue.md)
   * [配置文件的解决](gin-kuang-jia-chu-xue/pei-zhi-wen-jian-de-jie-jue.md)
   * [文档初读](gin-kuang-jia-chu-xue/wen-dang-chu-du.md)
@@ -160,5 +161,7 @@
 * [golang 的时区问题](golang-de-shi-qu-wen-ti.md)
 * [docker 常用命令](docker-chang-yong-ming-ling.md)
 * [grpc 练习](grpc-lian-xi.md)
-  * 安装及其基本使用
+  * [安装及其基本使用](grpc-lian-xi/an-zhuang-ji-qi-ji-ben-shi-yong.md)
+  * [protobuf 语法](grpc-lian-xi/protobuf-yu-fa.md)
+  * [博客项目改进\(一\)](grpc-lian-xi/bo-ke-xiang-mu-gai-8fdb28-4e0029.md)
 
