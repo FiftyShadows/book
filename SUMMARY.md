@@ -78,6 +78,7 @@
   * [go 多继承的坑](go-ge-zhong-keng-ji-lu/go-duo-ji-cheng-de-keng.md)
   * [golang 字符串 byte 互转](go-ge-zhong-keng-ji-lu/golang-zi-fu-chuan-byte-hu-zhuan.md)
   * [golang 循环赋值指针错误](go-ge-zhong-keng-ji-lu/golang-xun-huan-fu-zhi-zhi-zhen-cuo-wu.md)
+  * [struct 转 map](go-ge-zhong-keng-ji-lu/struct-zhuan-map.md)
 * [工作点滴记录](gong-zuo-dian-di-ji-lu.md)
   * [xml 转换 dict](gong-zuo-dian-di-ji-lu/xml-zhuan-huan-dict.md)
   * [实操 oauth](gong-zuo-dian-di-ji-lu/shi-cao-oauth.md)
