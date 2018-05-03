@@ -7,6 +7,14 @@ name := c.Query("name")
 //默认值的提供方法
 state := com.StrTo(c.DefaultQuery("state", "0")).MustInt()
 ```
+####Post参数的获取
+```go
+if arg := c.PostForm("state"); arg != "" {
+    state = com.StrTo(arg).MustInt()
+	maps["state"] = state
+	}
+```
+
 ####2.分组路由
 ```go
 v1 := router.Group("/v1")
