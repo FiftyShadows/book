@@ -159,7 +159,6 @@
 * [docker安装 mysql](dockeran-zhuang-mysql.md)
 * [redis 和 Memcached的具体比较](redis-he-memcached-de-ju-ti-bi-jiao.md)
 * [mysql 远程授权的巨坑](mysql-yuan-cheng-shou-quan-de-ju-keng.md)
-* [golang 的时区问题](golang-de-shi-qu-wen-ti.md)
 * [docker 常用命令](docker-chang-yong-ming-ling.md)
 * [grpc 练习](grpc-lian-xi.md)
   * [安装及其基本使用](grpc-lian-xi/an-zhuang-ji-qi-ji-ben-shi-yong.md)
