@@ -137,7 +137,6 @@
 * [什么是智能合约](shi-yao-shi-zhi-neng-he-yue.md)
 * [atom插件安装方法](atomcha-jian-an-zhuang-fang-fa.md)
 * [truffle](truffle.md)
-* [区块链名词解释](qu-kuai-lian-ming-ci-jie-shi.md)
 * [django遇到TypeError: can't multiply sequence by non-int of type 'tuple'](djangoyu-dao-typeerror-can-t-multiply-sequence-by-non-int-of-type-tuple.md)
 * [以太坊的软硬分叉](yi-tai-fang-de-ruan-ying-fen-cha.md)
 * [以太坊区块](yi-tai-fang-qu-kuai.md)
