@@ -151,7 +151,6 @@
 * [mac menu 栏显示插件编写](mac-menu-lan-xian-shi-cha-jian-bian-xie.md)
 * [django 一些常见的库](django-yi-xie-chang-jian-de-ku.md)
 * [POS 的golang 实现](pos-de-golang-shi-xian.md)
-* [python 起 http 服务访问文件](python-qi-http-fu-wu-fang-wen-wen-jian.md)
 * [go 模拟高并发](go-mo-ni-gao-bing-fa.md)
 * [golang 高逼格的构造函数](golang-gao-bi-ge-de-gou-zao-han-shu.md)
 * [golang 周期/定时任务的实现](golang-zhou-671f-ding-shi-ren-wu-de-shi-xian.md)
@@ -163,4 +162,5 @@
   * [安装及其基本使用](grpc-lian-xi/an-zhuang-ji-qi-ji-ben-shi-yong.md)
   * [protobuf 语法](grpc-lian-xi/protobuf-yu-fa.md)
   * [博客项目改进\(一\)](grpc-lian-xi/bo-ke-xiang-mu-gai-8fdb28-4e0029.md)
+* [快速起 http 服务](kuai-su-qi-http-fu-wu.md)
 
