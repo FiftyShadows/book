@@ -86,6 +86,8 @@
   * [父类调用子类的属性](gong-zuo-dian-di-ji-lu/fu-lei-diao-yong-zi-lei-de-shu-xing.md)
   * [django 单独使用 model](gong-zuo-dian-di-ji-lu/django-dan-du-shi-yong-model.md)
   * [获取xml 指定属性](gong-zuo-dian-di-ji-lu/huo-qu-xml-zhi-ding-shu-xing.md)
+  * [一些缓存的深入理解](gong-zuo-dian-di-ji-lu/yi-xie-huan-cun-de-shen-ru-li-jie.md)
+  * [一致性哈西](gong-zuo-dian-di-ji-lu/yi-zhi-xing-ha-xi.md)
 * [mysql 各种集合](mysql-ge-zhong-ji-he.md)
   * [最基础的命令](mysql-ge-zhong-ji-he/zui-ji-chu-de-ming-ling.md)
   * [几种约束](mysql-ge-zhong-ji-he/ji-zhong-yue-shu.md)
