@@ -52,7 +52,8 @@ func main() {
 ####启动一个消费者查看
 
 ```
-./bin/kafka-console-consumer --bootstrap-server localhost:9092 --topic nginx_log --from-beginning
+cd /usr/local/Cellar/kafka/1.0.0
+cd ./bin/kafka-console-consumer --bootstrap-server localhost:9092 --topic nginx_log --from-beginning
 ```
 
 <br>
@@ -97,30 +98,3 @@ func main() {
 }
 ```
 
-###日志库的使用
-
-```go
-package main
-
-import (
-    "github.com/astaxie/beego/logs"
-    "encoding/json"
-    "fmt"
-)
-
-func main() {
-    config := make(map[string]interface{})
-    config["filename"] = "/Users/zhaofan/go_project/src/go_dev/13/log/logcollect.log"
-    config["level"] = logs.LevelTrace
-    configStr,err := json.Marshal(config)
-    if err != nil{
-        fmt.Println("marshal failed,err：",err)
-        return
-    }
-    logs.SetLogger(logs.AdapterFile,string(configStr))
-    logs.Debug("this is a debug,my name is %s","stu01")
-    logs.Info("this is a info,my name is %s","stu02")
-    logs.Trace("this is trace my name is %s","stu03")
-    logs.Warn("this is a warn my name is %s","stu04")
-}
-```

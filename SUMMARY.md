@@ -37,7 +37,6 @@
   * [go 格式化输出](go-ge-shi-hua-shu-chu.md)
   * [func 也是个 type 类型](func-ye-shi-ge-type-lei-xing.md)
   * [interface 多态](interface-duo-tai.md)
-  * [如何处理错误](ru-he-chu-li-cuo-wu.md)
   * [go 字符串的常用操作](go-zi-fu-chuan-de-chang-yong-cao-zuo.md)
   * [go json](go-json.md)
   * [go 并发  第二次记录](go-bing-fa-di-er-ci-ji-lu.md)
@@ -46,6 +45,8 @@
   * [make new 区别](make-new-qu-bie.md)
   * [golang 装饰器模式](golang-zhuang-shi-qi-mo-shi.md)
   * [各种常用的工具函数](ge-zhong-chang-yong-de-gong-ju-han-shu.md)
+  * [golang 链式调用](golang-lian-shi-diao-yong.md)
+  * [context 包的使用理解](context-bao-de-shi-yong-li-jie.md)
 * [常用的算法](chang-yong-de-suan-fa.md)
   * [动态规划](chang-yong-de-suan-fa/dong-tai-gui-hua.md)
   * [快速排序](chang-yong-de-suan-fa/kuai-su-pai-xu.md)
@@ -105,6 +106,7 @@
   * [配置文件的解决](gin-kuang-jia-chu-xue/pei-zhi-wen-jian-de-jie-jue.md)
   * [文档初读](gin-kuang-jia-chu-xue/wen-dang-chu-du.md)
   * [完整项目练习](gin-kuang-jia-chu-xue/wan-zheng-xiang-mu-lian-xi.md)
+  * [tail 库使用](gin-kuang-jia-chu-xue/tail-ku-shi-yong.md)
 * [以太坊开发整理](yi-tai-fang-kai-fa-zheng-li.md)
   * [geth基本使用](gethji-ben-shi-yong.md)
   * [mist 钱包](mist-qian-bao.md)
@@ -165,4 +167,5 @@
 * [快速起 http 服务](kuai-su-qi-http-fu-wu.md)
 * [日志系统学习记录](ri-zhi-xi-tong-xue-xi-ji-lu.md)
   * [kafka 启动](ri-zhi-xi-tong-xue-xi-ji-lu/kafka-qi-dong.md)
+  * 修改 kafka 分区数配置
 

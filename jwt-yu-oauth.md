@@ -128,7 +128,10 @@ fetch('api/user/1', {
     'Authorization': 'Bearer ' + token
   }
 })
+
 ```
+####也可以放在 cookie 里,然后设置个 http_only,token 存在 redis 里.
+
 
 服务端会验证token，如果验证通过就会返回相应的资源。整个流程就是这样的:
 
