@@ -46,7 +46,7 @@
   * [golang 装饰器模式](golang-zhuang-shi-qi-mo-shi.md)
   * [各种常用的工具函数](ge-zhong-chang-yong-de-gong-ju-han-shu.md)
   * [golang 链式调用](golang-lian-shi-diao-yong.md)
-  * [context 包的使用理解](context-bao-de-shi-yong-li-jie.md)
+  * [kafka的接入](kafkade-jie-ru.md)
 * [常用的算法](chang-yong-de-suan-fa.md)
   * [动态规划](chang-yong-de-suan-fa/dong-tai-gui-hua.md)
   * [快速排序](chang-yong-de-suan-fa/kuai-su-pai-xu.md)
