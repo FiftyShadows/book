@@ -167,4 +167,5 @@
 * [日志系统学习记录](ri-zhi-xi-tong-xue-xi-ji-lu.md)
   * [kafka 启动](ri-zhi-xi-tong-xue-xi-ji-lu/kafka-qi-dong.md)
   * 修改 kafka 分区数配置
+* [gitlab生成ssh key](gitlabsheng-cheng-ssh-key.md)
 
