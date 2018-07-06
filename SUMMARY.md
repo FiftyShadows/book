@@ -101,6 +101,7 @@
   * [几个连接的使用](mysql-ge-zhong-ji-he/ji-ge-lian-jie-de-shi-yong.md)
   * [自关联](mysql-ge-zhong-ji-he/zi-guan-lian.md)
   * [事务](mysql-ge-zhong-ji-he/shi-wu.md)
+  * [规范](mysql-ge-zhong-ji-he/gui-fan.md)
 * [gin 框架初学](gin-kuang-jia-chu-xue.md)
   * [配置文件的解决](gin-kuang-jia-chu-xue/pei-zhi-wen-jian-de-jie-jue.md)
   * [文档初读](gin-kuang-jia-chu-xue/wen-dang-chu-du.md)
