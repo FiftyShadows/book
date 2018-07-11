@@ -1,0 +1,4 @@
+```sql
+`creat_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP
+`update_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+```

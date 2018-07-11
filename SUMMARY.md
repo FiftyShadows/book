@@ -102,6 +102,7 @@
   * [自关联](mysql-ge-zhong-ji-he/zi-guan-lian.md)
   * [事务](mysql-ge-zhong-ji-he/shi-wu.md)
   * [规范](mysql-ge-zhong-ji-he/gui-fan.md)
+  * [创建时间和更新时间](mysql-ge-zhong-ji-he/chuang-jian-shi-jian-he-geng-xin-shi-jian.md)
 * [gin 框架初学](gin-kuang-jia-chu-xue.md)
   * [配置文件的解决](gin-kuang-jia-chu-xue/pei-zhi-wen-jian-de-jie-jue.md)
   * [文档初读](gin-kuang-jia-chu-xue/wen-dang-chu-du.md)
