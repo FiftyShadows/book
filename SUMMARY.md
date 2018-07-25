@@ -92,6 +92,7 @@
   * [一致性哈西](gong-zuo-dian-di-ji-lu/yi-zhi-xing-ha-xi.md)
   * [使用多队列的好处](gong-zuo-dian-di-ji-lu/shi-yong-duo-dui-lie-de-hao-chu.md)
   * [centos 安装python3](gong-zuo-dian-di-ji-lu/centos-an-zhuang-python3.md)
+  * [服务器pip安装失败 locations that require TLS/SSL异常处理方法](gong-zuo-dian-di-ji-lu/fu-wu-qi-pip-an-zhuang-shi-bai-locationsthat-require-tls-ssl-yi-chang-chu-li-fang-fa.md)
 * [mysql 各种集合](mysql-ge-zhong-ji-he.md)
   * [最基础的命令](mysql-ge-zhong-ji-he/zui-ji-chu-de-ming-ling.md)
   * [几种约束](mysql-ge-zhong-ji-he/ji-zhong-yue-shu.md)
