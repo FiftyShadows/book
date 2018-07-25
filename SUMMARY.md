@@ -91,6 +91,7 @@
   * [一些缓存的深入理解](gong-zuo-dian-di-ji-lu/yi-xie-huan-cun-de-shen-ru-li-jie.md)
   * [一致性哈西](gong-zuo-dian-di-ji-lu/yi-zhi-xing-ha-xi.md)
   * [使用多队列的好处](gong-zuo-dian-di-ji-lu/shi-yong-duo-dui-lie-de-hao-chu.md)
+  * [centos 安装python3](gong-zuo-dian-di-ji-lu/centos-an-zhuang-python3.md)
 * [mysql 各种集合](mysql-ge-zhong-ji-he.md)
   * [最基础的命令](mysql-ge-zhong-ji-he/zui-ji-chu-de-ming-ling.md)
   * [几种约束](mysql-ge-zhong-ji-he/ji-zhong-yue-shu.md)
