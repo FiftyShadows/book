@@ -172,7 +172,7 @@
 * [快速起 http 服务](kuai-su-qi-http-fu-wu.md)
 * [日志系统学习记录](ri-zhi-xi-tong-xue-xi-ji-lu.md)
   * [kafka 启动](ri-zhi-xi-tong-xue-xi-ji-lu/kafka-qi-dong.md)
-  * 修改 kafka 分区数配置
+  * [修改 kafka 分区数配置](ri-zhi-xi-tong-xue-xi-ji-lu/xiu-gai-kafka-fen-qu-shu-pei-zhi.md)
 * [gitlab生成ssh key](gitlabsheng-cheng-ssh-key.md)
 * [金融相关知识整理](jin-rong-xiang-guan-zhi-shi-zheng-li.md)
   * [货币概念区分](jin-rong-xiang-guan-zhi-shi-zheng-li/huo-bi-gai-nian-qu-fen.md)
