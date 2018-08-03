@@ -81,4 +81,20 @@ localMethod({"result":"data from remote!"});
 WebSocket是一种通信协议，不实行同源政策，
 上面的几种方法，可以说是奇技淫巧，绕过了浏览器的限制。随着前端框架的兴起，以及前后端分离架构的流行，上面的技巧已经比较陈旧了。
 
+####前端ajax注意
+```js
+$.ajax({
+            type: "GET",
+            url: 'http://0.0.0.0:7000/account/is_login',
+            xhrFields: {
+                withCredentials: true
+            },//很重要!!!!!!
+            success: function (data) {
+                console.log(data)
+            },
+            error: function (data) {
+                console.log(data)
+            }
+        })
+```
 
