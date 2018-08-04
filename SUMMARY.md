@@ -178,4 +178,5 @@
   * [货币概念区分](jin-rong-xiang-guan-zhi-shi-zheng-li/huo-bi-gai-nian-qu-fen.md)
 * [量化交易实践](liang-hua-jiao-yi-shi-jian.md)
 * [gevent&nginx部署flask项目](geventandnginxbu-shu-flask-xiang-mu.md)
+* [雪花算法 golang实现](xue-hua-suan-fa-golang-shi-xian.md)
 
