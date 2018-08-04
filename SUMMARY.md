@@ -95,6 +95,7 @@
   * [服务器pip安装失败 locations that require TLS/SSL异常处理方法](gong-zuo-dian-di-ji-lu/fu-wu-qi-pip-an-zhuang-shi-bai-locationsthat-require-tls-ssl-yi-chang-chu-li-fang-fa.md)
   * [pip10包管理导致的install错误](gong-zuo-dian-di-ji-lu/pip10bao-guanli-dao-zhi-de-install-cuo-wu.md)
   * [简单测试并发性能](gong-zuo-dian-di-ji-lu/jian-dan-ce-shi-bing-fa-xing-neng.md)
+  * [rom functools import wraps](gong-zuo-dian-di-ji-lu/rom-functools-import-wraps.md)
 * [mysql 各种集合](mysql-ge-zhong-ji-he.md)
   * [最基础的命令](mysql-ge-zhong-ji-he/zui-ji-chu-de-ming-ling.md)
   * [几种约束](mysql-ge-zhong-ji-he/ji-zhong-yue-shu.md)
