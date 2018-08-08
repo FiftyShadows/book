@@ -177,7 +177,13 @@
 * [gitlab生成ssh key](gitlabsheng-cheng-ssh-key.md)
 * [金融相关知识整理](jin-rong-xiang-guan-zhi-shi-zheng-li.md)
   * [货币概念区分](jin-rong-xiang-guan-zhi-shi-zheng-li/huo-bi-gai-nian-qu-fen.md)
+* [redis专项学习记录](rediszhuan-xiang-xue-xi-ji-lu.md)
+  * [主从复制](rediszhuan-xiang-xue-xi-ji-lu/zhu-cong-fu-zhi.md)
+  * [事务](rediszhuan-xiang-xue-xi-ji-lu/shi-wu.md)
+  * [持久化](rediszhuan-xiang-xue-xi-ji-lu/chi-jiu-hua.md)
+  * [集群搭建](rediszhuan-xiang-xue-xi-ji-lu/ji-qun-da-jian.md)
 * [量化交易实践](liang-hua-jiao-yi-shi-jian.md)
 * [gevent&nginx部署flask项目](geventandnginxbu-shu-flask-xiang-mu.md)
 * [雪花算法 golang实现](xue-hua-suan-fa-golang-shi-xian.md)
+* [nginx 静态文件配置](nginx-jing-tai-wen-jian-pei-zhi.md)
 
