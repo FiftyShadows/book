@@ -101,10 +101,10 @@ command = /root/python_web/flask_test_env/bin/gunicorn -c gunicorn_config.py app
 autostart = True
 autorestart=True
 #Unlinking stale socket /var/run/supervisor/supervisor.sock  傻逼一样的bug
-[supervisorctl]
-serverurl=unix:///var/run/supervisor.sock
-[unix_http_server]
-file=/tmp/supervisor.sock
+#[supervisorctl]
+#serverurl=unix:///var/run/supervisor.sock
+#[unix_http_server]
+#file=/tmp/supervisor.sock
 
 #user = root　
 #stdout_logfile=/var/log/uwsgi/supervisor_flask.log      # 运行日志
@@ -114,4 +114,4 @@ file=/tmp/supervisor.sock
 ```
 然后启动`supervisord -c /etc/supervisord.conf`
 
-
+重启 `supervisorctl restart flasktest`或者`systemctl restart supervisord`
