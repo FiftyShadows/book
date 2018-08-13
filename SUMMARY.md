@@ -186,6 +186,7 @@
 * [雪花算法 golang实现](xue-hua-suan-fa-golang-shi-xian.md)
 * [nginx 静态文件配置](nginx-jing-tai-wen-jian-pei-zhi.md)
 * [python 重写日志系统](python-zhong-xie-ri-zhi-xi-tong.md)
-  * [filebeat](python-zhong-xie-ri-zhi-xi-tong/filebeat.md)
   * [一些安装](python-zhong-xie-ri-zhi-xi-tong/yi-xie-an-zhuang.md)
+  * [格式化日志,取代logstash](python-zhong-xie-ri-zhi-xi-tong/ge-shi-hua-ri-5fd72c-qu-dai-logstash.md)
+  * [日志格式处理](python-zhong-xie-ri-zhi-xi-tong/ri-zhi-ge-shi-chu-li.md)
 

@@ -97,4 +97,7 @@ func main() {
     }
 }
 ```
+curl -XPUT -u elastic 'localhost:9200/_xpack/security/user/elastic/_password' -d '{
+  "password" : "123456"
+}
 
