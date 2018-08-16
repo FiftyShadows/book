@@ -190,4 +190,6 @@
   * [一些安装](python-zhong-xie-ri-zhi-xi-tong/yi-xie-an-zhuang.md)
   * [格式化日志,取代logstash](python-zhong-xie-ri-zhi-xi-tong/ge-shi-hua-ri-5fd72c-qu-dai-logstash.md)
   * [日志格式处理](python-zhong-xie-ri-zhi-xi-tong/ri-zhi-ge-shi-chu-li.md)
+* rabbitmq 工作总结
+  * [一些吐槽](yi-xie-tu-cao.md)
 
