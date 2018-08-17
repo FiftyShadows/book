@@ -175,8 +175,6 @@
 * [日志系统学习记录](ri-zhi-xi-tong-xue-xi-ji-lu.md)
   * [kafka 启动](ri-zhi-xi-tong-xue-xi-ji-lu/kafka-qi-dong.md)
 * [gitlab生成ssh key](gitlabsheng-cheng-ssh-key.md)
-* [金融相关知识整理](jin-rong-xiang-guan-zhi-shi-zheng-li.md)
-  * [货币概念区分](jin-rong-xiang-guan-zhi-shi-zheng-li/huo-bi-gai-nian-qu-fen.md)
 * [redis专项学习记录](rediszhuan-xiang-xue-xi-ji-lu.md)
   * [主从复制](rediszhuan-xiang-xue-xi-ji-lu/zhu-cong-fu-zhi.md)
   * [事务](rediszhuan-xiang-xue-xi-ji-lu/shi-wu.md)
@@ -190,6 +188,7 @@
   * [一些安装](python-zhong-xie-ri-zhi-xi-tong/yi-xie-an-zhuang.md)
   * [格式化日志,取代logstash](python-zhong-xie-ri-zhi-xi-tong/ge-shi-hua-ri-5fd72c-qu-dai-logstash.md)
   * [日志格式处理](python-zhong-xie-ri-zhi-xi-tong/ri-zhi-ge-shi-chu-li.md)
-* rabbitmq 工作总结
+* [rabbitmq 工作总结](rabbitmq-gong-zuo-zong-jie.md)
   * [一些吐槽](yi-xie-tu-cao.md)
+  * [一个小坑](yi-ge-xiao-keng.md)
 
