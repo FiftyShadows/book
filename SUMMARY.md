@@ -97,6 +97,7 @@
   * [简单测试并发性能](gong-zuo-dian-di-ji-lu/jian-dan-ce-shi-bing-fa-xing-neng.md)
   * [rom functools import wraps](gong-zuo-dian-di-ji-lu/rom-functools-import-wraps.md)
   * redis 持久化rdb导致硬盘塞满
+  * [http升级成http的请求头](gong-zuo-dian-di-ji-lu/httpsheng-ji-cheng-http-de-qing-qiu-tou.md)
 * [mysql 各种集合](mysql-ge-zhong-ji-he.md)
   * [最基础的命令](mysql-ge-zhong-ji-he/zui-ji-chu-de-ming-ling.md)
   * [几种约束](mysql-ge-zhong-ji-he/ji-zhong-yue-shu.md)
@@ -191,4 +192,7 @@
 * [rabbitmq 工作总结](rabbitmq-gong-zuo-zong-jie.md)
   * [一些吐槽](yi-xie-tu-cao.md)
   * [一个小坑](yi-ge-xiao-keng.md)
+  * [重复ack导致的消息丢失](zhong-fu-ack-dao-zhi-de-xiao-xi-diu-shi.md)
+  * [topic的demo](topicde-demo.md)
+  * [json的存储](jsonde-cun-chu.md)
 
