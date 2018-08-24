@@ -196,4 +196,5 @@
   * [重复ack导致的消息丢失](zhong-fu-ack-dao-zhi-de-xiao-xi-diu-shi.md)
   * [topic的demo](topicde-demo.md)
   * [json的存储](jsonde-cun-chu.md)
+  * [弃用pika,启用kombu](qi-yong-pika-qi-yong-kombu.md)
 
