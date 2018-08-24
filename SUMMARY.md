@@ -197,4 +197,5 @@
   * [topic的demo](topicde-demo.md)
   * [json的存储](jsonde-cun-chu.md)
   * [弃用pika,启用kombu](qi-yong-pika-qi-yong-kombu.md)
+* [任务调度](ren-wu-diao-du.md)
 
