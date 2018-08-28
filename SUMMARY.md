@@ -182,6 +182,7 @@
   * [事务](rediszhuan-xiang-xue-xi-ji-lu/shi-wu.md)
   * [持久化](rediszhuan-xiang-xue-xi-ji-lu/chi-jiu-hua.md)
   * [集群搭建](rediszhuan-xiang-xue-xi-ji-lu/ji-qun-da-jian.md)
+  * [缓存一致性的几种方案](rediszhuan-xiang-xue-xi-ji-lu/huan-cun-yi-zhi-xing-de-ji-zhong-fang-an.md)
 * [量化交易实践](liang-hua-jiao-yi-shi-jian.md)
 * [gevent&nginx部署flask项目](geventandnginxbu-shu-flask-xiang-mu.md)
 * [雪花算法 golang实现](xue-hua-suan-fa-golang-shi-xian.md)
