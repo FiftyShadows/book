@@ -98,6 +98,7 @@
   * [rom functools import wraps](gong-zuo-dian-di-ji-lu/rom-functools-import-wraps.md)
   * [http升级成http的请求头](gong-zuo-dian-di-ji-lu/httpsheng-ji-cheng-http-de-qing-qiu-tou.md)
   * [查看sqlalchemy执行的原始sql语句？](gong-zuo-dian-di-ji-lu/cha-kan-sqlalchemy-zhi-xing-de-yuan-shi-sql-yu-ju-ff1f.md)
+  * [flask单独脚本](gong-zuo-dian-di-ji-lu/flaskdan-du-jiao-ben.md)
 * [mysql 各种集合](mysql-ge-zhong-ji-he.md)
   * [最基础的命令](mysql-ge-zhong-ji-he/zui-ji-chu-de-ming-ling.md)
   * [几种约束](mysql-ge-zhong-ji-he/ji-zhong-yue-shu.md)
