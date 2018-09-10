@@ -1,5 +1,5 @@
 ####我写的是数字货币的量化,主策略为追涨杀跌和止盈止损,选择的交易所为币安
-
+github地址:https://github.com/qq976739120/quantitative_trading
 ####1. 有一个已经有的币种的dict,price注意是均价,
 
 ```python
