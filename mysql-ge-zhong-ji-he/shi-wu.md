@@ -58,7 +58,7 @@ mysql> select * from accounts;
 |  2 |     222 |
 +----+---------+
 ```
-为了说明问题，我们打开两个控制台分别进行登录来模拟两个用户（暂且成为用户A和用户B吧），并设置当前MySQL会话的事务隔离级别。
+打开两个控制台分别进行登录来模拟两个用户（暂且成为用户A和用户B吧），并设置当前MySQL会话的事务隔离级别。
 #####A
 ```sql
 mysql> set session transaction isolation level read uncommitted;
