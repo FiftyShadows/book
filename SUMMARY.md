@@ -174,7 +174,6 @@
 * [grpc 练习](grpc-lian-xi.md)
   * [安装及其基本使用](grpc-lian-xi/an-zhuang-ji-qi-ji-ben-shi-yong.md)
   * [protobuf 语法](grpc-lian-xi/protobuf-yu-fa.md)
-  * [博客项目改进\(一\)](grpc-lian-xi/bo-ke-xiang-mu-gai-8fdb28-4e0029.md)
 * [快速起 http 服务](kuai-su-qi-http-fu-wu.md)
 * [日志系统学习记录](ri-zhi-xi-tong-xue-xi-ji-lu.md)
   * [kafka 启动](ri-zhi-xi-tong-xue-xi-ji-lu/kafka-qi-dong.md)
