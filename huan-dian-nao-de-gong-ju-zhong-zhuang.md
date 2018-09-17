@@ -5,4 +5,4 @@
 3. zsh 安装
 
 4. 显示隐藏文件夹 command+shift+ . 
-5. item2 + oh my zsh:https://blog.csdn.net/weixin_41780192/article/details/79476367  或者 http://www.cnblogs.com/weixuqin/p/7029177.html
+5. item2 + oh my zsh:https://blog.csdn.net/weixin_41780192/article/details/79476367  或者 http://www.cnblogs.com/weixuqin/p/7029177.html  高亮:https://blog.csdn.net/gangyin5071/article/details/79601132
