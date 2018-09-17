@@ -1,0 +1,2 @@
+
+`curl -sSL https://get.daocloud.io/daotools/set_mirror.sh | sh -s http://*******.m.daocloud.io `换源,然后 在这个文件中的/etc/docker/daemon.json 格式就变了{"registry-mirrors": ["http://****.m.daocloud.io"]，} 最后一个多了一个逗号

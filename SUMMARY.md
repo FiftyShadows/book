@@ -195,9 +195,7 @@
 * [rabbitmq 工作总结](rabbitmq-gong-zuo-zong-jie.md)
   * [一些吐槽](yi-xie-tu-cao.md)
   * [一个小坑](yi-ge-xiao-keng.md)
-  * [重复ack导致的消息丢失](zhong-fu-ack-dao-zhi-de-xiao-xi-diu-shi.md)
   * [topic的demo](topicde-demo.md)
-  * [json的存储](jsonde-cun-chu.md)
-  * [弃用pika,启用kombu](qi-yong-pika-qi-yong-kombu.md)
 * [任务调度](ren-wu-diao-du.md)
+* [docker 换源之后无法启动](docker-huan-yuan-zhi-hou-wu-fa-qi-dong.md)
 
