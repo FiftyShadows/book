@@ -198,4 +198,5 @@
   * [topic的demo](topicde-demo.md)
 * [任务调度](ren-wu-diao-du.md)
 * [docker 换源之后无法启动](docker-huan-yuan-zhi-hou-wu-fa-qi-dong.md)
+* [换电脑的工具重装](huan-dian-nao-de-gong-ju-zhong-zhuang.md)
 
