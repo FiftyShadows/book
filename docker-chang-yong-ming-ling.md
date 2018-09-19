@@ -24,3 +24,27 @@
 `docker rm $(docker ps -aq)`
 #####3.一条命令实现停用并删除容器：
 `docker stop $(docker ps -q) & docker rm $(docker ps -aq)`
+
+####启动容器
+`docker run -it -d --name test-centos1 centos`
+
+-it :　进行交互式操作
+
+-d :　等同于 -d=true,容器将会在后台运行，不然执行一次命令后，退出后，便是exit状态了。
+
+--name : 容器启动后的名字，默认不指定，将会随机产生一个名字。或者使用 -name="containers_name" 
+
+centos：使用的镜像名称
+####Dockerfile 格式
+
+　　FROM： 必不可少的命令，从某个镜像作为基。如 FROM <image_name> ，或者 FROM <image_name>:<tag>. 如果不加tag，默认为latest。先从本地镜像仓库去搜索基镜像，如过本地没有，在去网上docker registry去寻找。
+
+　　　　　MAINTAINER：标明该Dockerfile作者及联系方式，可忽略不写
+
+　　　　　RUN：建立新的镜像时，可以执行在系统里的命令，如安装特定的软件以及设置环境变量。
+
+　　　　　ENV：设置系统环境变量（注意：写在/etc/profile里的命令在dockerfile这里会不生效，所以为改成ENV的方式）
+
+　　　　　EXPOSE：开放容器内的端口，但不和宿主机进行映射。方便在宿主机上进行开发测试。（如需映射到宿主机端口，可在运行容器时使用 -p host_port:container_port）
+
+　　　　　CMD：设置执行的命令，经常用于容器启动时指定的某个操作。如执行自定义脚本服务，或者是执行系统命令。CMD 只能存在一条，如在Dockerfile中有多条CMD的话，只有最后一条CMD生效！
