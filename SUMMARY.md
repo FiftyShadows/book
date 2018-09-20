@@ -100,6 +100,7 @@
   * [查看sqlalchemy执行的原始sql语句？](gong-zuo-dian-di-ji-lu/cha-kan-sqlalchemy-zhi-xing-de-yuan-shi-sql-yu-ju-ff1f.md)
   * [flask单独脚本](gong-zuo-dian-di-ji-lu/flaskdan-du-jiao-ben.md)
   * [flask日志](gong-zuo-dian-di-ji-lu/flaskri-zhi.md)
+  * [SSL 错误](gong-zuo-dian-di-ji-lu/ssl-cuo-wu.md)
 * [mysql 各种集合](mysql-ge-zhong-ji-he.md)
   * [最基础的命令](mysql-ge-zhong-ji-he/zui-ji-chu-de-ming-ling.md)
   * [几种约束](mysql-ge-zhong-ji-he/ji-zhong-yue-shu.md)
