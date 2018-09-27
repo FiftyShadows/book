@@ -91,3 +91,23 @@ for i in range(100):
     t = threading.Thread(target=sock_conn)
     t.start()
 ```
+
+
+```python
+循环生成任务的例子
+import gevent
+from gevent import socket, monkey
+import time
+monkey.patch_all()#碰到可能 io 阻塞的记得加这句,俗称的猴子补丁
+def func1(i):
+    print(i)
+    time.sleep(i)
+    print(i)
+
+tasks = []
+now = time.time()
+for i in range(4):
+    tasks.append(gevent.spawn(func1, i))
+gevent.joinall(tasks)
+print(time.time()-now)
+```
