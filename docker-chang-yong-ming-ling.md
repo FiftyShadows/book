@@ -48,3 +48,14 @@ centos：使用的镜像名称
 　　　　　EXPOSE：开放容器内的端口，但不和宿主机进行映射。方便在宿主机上进行开发测试。（如需映射到宿主机端口，可在运行容器时使用 -p host_port:container_port）
 
 　　　　　CMD：设置执行的命令，经常用于容器启动时指定的某个操作。如执行自定义脚本服务，或者是执行系统命令。CMD 只能存在一条，如在Dockerfile中有多条CMD的话，只有最后一条CMD生效！
+
+
+####root 权限
+```
+sudo docker exec -ti -u root 7509371edd48 bash
+```
+
+####进入容器修改
+```
+docker exec -i -t 09c2ab975d18  /bin/bash
+```
